@@ -1,0 +1,90 @@
+---
+title: ""
+page-layout: full
+toc: false
+---
+
+```{=html}
+<div class="hero-band">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-md-auto text-center">
+        <!-- Swap in your photo: <img src="images/headshot.jpg" class="profile-photo" alt="Dr. Andrew Anderson"> -->
+        <div class="profile-placeholder mx-auto" style="font-size:0.75rem;">
+          📷<br>Add your<br>headshot here
+        </div>
+      </div>
+      <div class="col">
+        <h1 style="font-size:2.6rem; color:#3c5c3e; line-height:1.15; margin-bottom:0.2rem;">
+          Dr. Andrew Anderson
+        </h1>
+        <p style="font-family:Arial,sans-serif; font-size:1rem; color:#6e7d8a; margin-bottom:1.1rem;">
+          Extension Economist &amp; Associate Professor · [University Name]
+        </p>
+        <p style="max-width:560px;">
+          I study the economics of livestock production in the western United States, with a focus
+          on beef cattle markets, rangeland management, and risk management tools for cow-calf and
+          stocker operators. My extension program delivers practical economic analysis directly to
+          producers, lenders, and industry stakeholders across the region.
+        </p>
+        <div class="mb-3">
+          <span class="tag">Beef Cattle Markets</span>
+          <span class="tag">Rangeland Economics</span>
+          <span class="tag">Livestock Risk Management</span>
+          <span class="tag">Western Agricultural Policy</span>
+          <span class="tag">Farm & Ranch Finance</span>
+        </div>
+        <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:4px;">
+          <a href="work.qmd" class="btn-sage">Research &amp; Extension</a>
+          <a href="cv.pdf" class="btn-outline">Download CV</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+## About
+
+<span class="section-label">Background</span>
+<div class="rule-accent"></div>
+
+I am an extension economist and associate professor in the Department of [Agricultural & Applied Economics] at [University Name]. My work centers on the economics of livestock systems across the Intermountain West and Great Plains — from cow-calf enterprise budgeting and stocker market analysis to federal grazing policy and drought impacts on ranch viability.
+
+Before joining [University Name], I completed my Ph.D. at [University], where my dissertation examined [topic]. I was raised on a [cattle/ranch] operation in [State], and that practical background shapes how I approach both my research and my extension work.
+
+::: {.row .mt-4 .g-4}
+::: {.col-md-4}
+
+### Research Focus
+
+- Cattle market price dynamics and basis
+- Livestock Risk Protection (LRP) insurance effectiveness
+- Rangeland lease markets and carrying capacity
+- Drought economics and herd liquidation decisions
+- Federal lands grazing economics
+
+:::
+::: {.col-md-4}
+
+### Extension Work
+
+- Cow-calf and stocker enterprise budgets
+- Cattle market outlook publications
+- Ranch financial management workshops
+- LRP premium calculators and decision tools
+
+:::
+::: {.col-md-4}
+
+### Contact
+
+**Email:** [andrewemeryanderson@gmail.com](mailto:andrewemeryanderson@gmail.com)
+**Office:** [Building], Room [###]
+**Phone:** [(###) ###-####]
+**Office Hours:** [Days/Times]
+
+[Google Scholar](#) · [ORCID](#)
+
+:::
+:::

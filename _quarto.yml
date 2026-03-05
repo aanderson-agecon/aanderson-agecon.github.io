@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Dr. Andrew Anderson"
+  description: "Extension Economist & Professor"
+  favicon: "images/favicon.png"
+
+  navbar:
+    background: "#3c5c3e"
+    foreground: "#f5f0e6"
+    left:
+      - href: index.qmd
+        text: About
+      - href: work.qmd
+        text: Research & Extension
+      - href: teaching.qmd
+        text: Teaching
+      - href: blog/index.qmd
+        text: Blog
+    right:
+      - icon: envelope-fill
+        href: "mailto:andrewemeryanderson@gmail.com"
+        aria-label: Email
+      - icon: github
+        href: "https://github.com/yourusername"
+        aria-label: GitHub
+
+  page-footer:
+    background: "#3c5c3e"
+    foreground: "#aabfac"
+    left: "© 2026 Dr. Andrew Anderson"
+    right:
+      - text: "About"
+        href: index.qmd
+      - text: "Research & Extension"
+        href: work.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "Blog"
+        href: blog/index.qmd
+
+format:
+  html:
+    theme: [cosmo, styles.css]
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true

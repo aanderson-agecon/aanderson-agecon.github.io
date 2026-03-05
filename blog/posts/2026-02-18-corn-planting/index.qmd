@@ -1,0 +1,44 @@
+---
+title: "What Tighter Corn Acres Mean for Cattle Feeders in 2026"
+date: "2026-02-18"
+description: "Projected shifts in corn planted area will ripple into feedlot break-evens and placement decisions this spring."
+categories: [Feed Markets, Feedlot Economics, Corn]
+image: "thumbnail.png"
+---
+
+*Replace with your own analysis. The structure below shows how to embed R output.*
+
+The USDA's Prospective Plantings report signals a [X]-million-acre shift in corn acreage this year. For cattle feeders, the downstream effects on corn prices, feedlot cost of gain, and break-even calculations are worth thinking through now — before spring placements.
+
+## The Supply Picture
+
+[Your analysis here. You can pull USDA NASS or CME data directly in R:]
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+# Example: corn price trend from FRED or USDA
+# library(tidyverse)
+# library(fredr)
+#
+# fredr_set_key("your_key")
+# corn <- fredr(series_id = "CORN") |>
+#   filter(date >= "2020-01-01") |>
+#   ggplot(aes(date, value)) + geom_line(color = "#5a7a5c") + ...
+
+cat("Embed your R analysis here.")
+```
+
+## Feedlot Break-Even Implications
+
+At current feeder cattle prices and a corn price assumption of \$[X]/bu., cost of gain works out to roughly \$[X]/cwt. for a 150-day closeout. [Continue your analysis...]
+
+## What Cow-Calf Producers Should Watch
+
+Feeder cattle demand at the sale barn is sensitive to feedlot margins. If corn stays elevated through summer, expect [your conclusion]...
+
+---
+
+*Questions or comments? [Email me](mailto:andrewemeryanderson@gmail.com).*

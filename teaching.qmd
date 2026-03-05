@@ -1,0 +1,103 @@
+---
+title: "Teaching & CV"
+toc: true
+toc-title: "Jump to"
+---
+
+<span class="section-label">Teaching & Background</span>
+<div class="rule-accent"></div>
+
+## Teaching Philosophy
+
+My courses focus on applied economic reasoning for students pursuing careers in livestock production, ranch management, agribusiness, and agricultural lending. I use real market data, actual enterprise budgets, and current policy debates rather than textbook abstractions. Graduate courses use R for data analysis and applied econometrics.
+
+---
+
+## Courses Taught
+
+<div class="course-row">
+  <div>
+    <div class="course-code">AGEC 3340</div>
+    <div class="course-title">Ranch & Farm Financial Management</div>
+  </div>
+  <div class="course-level">Undergraduate</div>
+</div>
+<div class="course-row">
+  <div>
+    <div class="course-code">AGEC 4250</div>
+    <div class="course-title">Livestock Markets & Price Analysis</div>
+  </div>
+  <div class="course-level">Undergraduate</div>
+</div>
+<div class="course-row">
+  <div>
+    <div class="course-code">AGEC 5410</div>
+    <div class="course-title">Agricultural Risk Management</div>
+  </div>
+  <div class="course-level">Graduate</div>
+</div>
+<div class="course-row">
+  <div>
+    <div class="course-code">AGEC 6620</div>
+    <div class="course-title">Applied Econometrics (R/tidyverse)</div>
+  </div>
+  <div class="course-level">Graduate</div>
+</div>
+
+---
+
+## Graduate Students
+
+**Current students**
+
+| Student | Level | Topic |
+|---------|-------|-------|
+| [Name] | Ph.D. | [Dissertation topic] |
+| [Name] | M.S.  | [Thesis topic] |
+
+**Completed students**
+
+| Student | Degree | Year | Placement |
+|---------|--------|------|-----------|
+| [Name] | Ph.D. | [Year] | [Position, Employer] |
+| [Name] | M.S.  | [Year] | [Position, Employer] |
+
+---
+
+## Curriculum Vitae
+
+::: {.row .g-5}
+::: {.col-md-6}
+
+### Education
+
+<div class="cv-row"><div class="cv-year">2017</div><div><div class="cv-title">Ph.D., Agricultural Economics</div><div class="cv-place">[University Name]</div></div></div>
+<div class="cv-row"><div class="cv-year">2013</div><div><div class="cv-title">M.S., Agricultural Economics</div><div class="cv-place">[University Name]</div></div></div>
+<div class="cv-row"><div class="cv-year">2011</div><div><div class="cv-title">B.S., Agricultural Business</div><div class="cv-place">[University Name]</div></div></div>
+
+### Positions
+
+<div class="cv-row"><div class="cv-year">2021–</div><div><div class="cv-title">Associate Professor & Extension Economist</div><div class="cv-place">[University Name]</div></div></div>
+<div class="cv-row"><div class="cv-year">2017–21</div><div><div class="cv-title">Assistant Professor & Extension Economist</div><div class="cv-place">[University Name]</div></div></div>
+
+:::
+::: {.col-md-6}
+
+### Service & Awards
+
+<div class="cv-row"><div class="cv-year">2024–</div><div><div class="cv-title">[Committee or Board]</div><div class="cv-place">[Organization]</div></div></div>
+<div class="cv-row"><div class="cv-year">2023–</div><div><div class="cv-title">Associate Editor</div><div class="cv-place">[Journal Name]</div></div></div>
+<div class="cv-row"><div class="cv-year">2022</div><div><div class="cv-title">[Award Name]</div><div class="cv-place">[Organization]</div></div></div>
+
+### Professional Memberships
+
+- Agricultural & Applied Economics Association (AAEA)
+- Western Agricultural Economics Association (WAEA)
+- [State] Agricultural Economics Society
+
+:::
+:::
+
+::: {.text-center .mt-4}
+[Download Full CV (PDF)](cv.pdf){.btn-sage}
+:::
