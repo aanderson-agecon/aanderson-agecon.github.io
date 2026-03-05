@@ -11,7 +11,7 @@ website:
   title: "Dr. Andrew Anderson"
   site-url: "https://aanderson-agecon.github.io"
   description: "Extension Economist & Professor"
-  favicon: "images/headshot.png"
+  favicon: "images/Headshot.png"
 
   navbar:
     background: "#3c5c3e"
