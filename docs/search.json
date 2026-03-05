@@ -35,39 +35,11 @@
     "text": "About\nBackground\n\n\n\nI am an assistant professor and extension economist in the Department of Agricultural & Resource Economics at Utah State University. My work centers on the economics of livestock production and marketing across the Intermountain West.\nI completed my Ph.D. at Kansas State University, where my dissertation examined market impacts of the PRF Rainfall Index Insurance program and loss aversion among meat consumers. I was raised in rural Idaho, surrounded by agriculture, and that practical background continues to inform my everyday work.\n\n\nResearch & Extension Focus\n\nLivestock market price dynamics and basis\nLivestock production decisions\nLivestock risk management\nEconomics of rangeland improvements\n\n\n\n\nContact\nEmail: a.anderson@usu.edu Office: AGRS 227\nGoogle Scholar · ORCID\n::: :::"
   },
   {
-    "objectID": "blog/posts/2026-01-30-working-capital/index.html",
-    "href": "blog/posts/2026-01-30-working-capital/index.html",
-    "title": "Working Capital: The Number Your Lender Is Really Watching",
-    "section": "",
-    "text": "Replace with your own analysis.\nAfter several years of strong cattle markets, some operations built up comfortable working capital cushions. But sustained input cost inflation and, in many areas, consecutive drought years have eroded those buffers. Lenders are watching this number closely heading into the 2026 operating loan season."
-  },
-  {
-    "objectID": "blog/posts/2026-01-30-working-capital/index.html#what-is-working-capital",
-    "href": "blog/posts/2026-01-30-working-capital/index.html#what-is-working-capital",
-    "title": "Working Capital: The Number Your Lender Is Really Watching",
-    "section": "What Is Working Capital?",
-    "text": "What Is Working Capital?\nWorking capital is current assets minus current liabilities. On a ranch balance sheet, current assets typically include:\n\nCash on hand and operating account balances\nAccounts receivable (cattle sold but not yet paid)\nPrepaid expenses (feed, fuel, supplies)\nFeeder cattle and stocker inventory\nGrowing crops or hay inventory (if applicable)\n\nCurrent liabilities include the operating loan balance, accounts payable, and the current portion of any term debt coming due within 12 months.\n\n\nEmbed your R analysis or visualization here."
-  },
-  {
-    "objectID": "blog/posts/2026-01-30-working-capital/index.html#the-working-capital-to-gross-revenue-ratio",
-    "href": "blog/posts/2026-01-30-working-capital/index.html#the-working-capital-to-gross-revenue-ratio",
-    "title": "Working Capital: The Number Your Lender Is Really Watching",
-    "section": "The Working Capital-to-Gross Revenue Ratio",
-    "text": "The Working Capital-to-Gross Revenue Ratio\nRaw working capital doesn’t mean much without context. A $200,000 cushion is comfortable for a 50-head cow operation and thin for a 500-head feedlot. The ratio to gross revenue scales for size:\n\nAbove 30% — strong position\n10–30% — adequate, monitor trends\nBelow 10% — early warning territory; lenders will ask questions"
-  },
-  {
-    "objectID": "blog/posts/2026-01-30-working-capital/index.html#if-yours-is-trending-down",
-    "href": "blog/posts/2026-01-30-working-capital/index.html#if-yours-is-trending-down",
-    "title": "Working Capital: The Number Your Lender Is Really Watching",
-    "section": "If Yours Is Trending Down",
-    "text": "If Yours Is Trending Down\n[Your practical guidance for cow-calf and stocker operators]\n\nQuestions? Email me."
-  },
-  {
     "objectID": "blog/index.html",
     "href": "blog/index.html",
-    "title": "Blog & Commentary",
+    "title": "Blog",
     "section": "",
-    "text": "Market Commentary & Analysis\n\n\n\nPractical market analysis and economic commentary for cattle producers, ranchers, and agribusiness professionals in the western U.S. Posts are written for decision-makers, not academic audiences.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat Tighter Corn Acres Mean for Cattle Feeders in 2026\n\n1 min\n\n\nFeed Markets\n\nFeedlot Economics\n\nCorn\n\n\n\nProjected shifts in corn planted area will ripple into feedlot break-evens and placement decisions this spring.\n\n\n\nFeb 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nWorking Capital: The Number Your Lender Is Really Watching\n\n2 min\n\n\nRanch Finance\n\nFinancial Management\n\n\n\nIn a tighter margin environment, working capital tells a more complete story than net worth. Here’s how to calculate it and what to do if yours is trending down.\n\n\n\nJan 30, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nQ4 Ag Credit Survey: What It Signals for Western Cattle Operations\n\n1 min\n\n\nRanch Finance\n\nCredit Markets\n\nOutlook\n\n\n\nThe Federal Reserve’s latest agricultural credit survey shows mixed signals. Here’s what the data say for ranchers heading into 2026.\n\n\n\nDec 12, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Market Commentary & Analysis\n\n\n\nThis blog is where I post thoughts on a broad range of topics that are broadly within my professional interests. I also post research summaries for projects I am working on.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQ4 Ag Credit Survey: What It Signals for Western Cattle Operations\n\n1 min\n\n\nRanch Finance\n\nCredit Markets\n\nOutlook\n\n\n\nThe Federal Reserve’s latest agricultural credit survey shows mixed signals. Here’s what the data say for ranchers heading into 2026.\n\n\n\nDec 12, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/posts/2025-12-12-credit-conditions/index.html",
@@ -105,34 +77,6 @@
     "text": "What to Watch in 2026\n[Your forward-looking commentary for cattle producers and ranchers]\n\nThis post reflects my own analysis and is not an official position of [University Name] or any Federal Reserve Bank.\nQuestions? Email me."
   },
   {
-    "objectID": "blog/posts/2026-02-18-corn-planting/index.html",
-    "href": "blog/posts/2026-02-18-corn-planting/index.html",
-    "title": "What Tighter Corn Acres Mean for Cattle Feeders in 2026",
-    "section": "",
-    "text": "Replace with your own analysis. The structure below shows how to embed R output.\nThe USDA’s Prospective Plantings report signals a [X]-million-acre shift in corn acreage this year. For cattle feeders, the downstream effects on corn prices, feedlot cost of gain, and break-even calculations are worth thinking through now — before spring placements."
-  },
-  {
-    "objectID": "blog/posts/2026-02-18-corn-planting/index.html#the-supply-picture",
-    "href": "blog/posts/2026-02-18-corn-planting/index.html#the-supply-picture",
-    "title": "What Tighter Corn Acres Mean for Cattle Feeders in 2026",
-    "section": "The Supply Picture",
-    "text": "The Supply Picture\n[Your analysis here. You can pull USDA NASS or CME data directly in R:]\n\n\nEmbed your R analysis here."
-  },
-  {
-    "objectID": "blog/posts/2026-02-18-corn-planting/index.html#feedlot-break-even-implications",
-    "href": "blog/posts/2026-02-18-corn-planting/index.html#feedlot-break-even-implications",
-    "title": "What Tighter Corn Acres Mean for Cattle Feeders in 2026",
-    "section": "Feedlot Break-Even Implications",
-    "text": "Feedlot Break-Even Implications\nAt current feeder cattle prices and a corn price assumption of $[X]/bu., cost of gain works out to roughly $[X]/cwt. for a 150-day closeout. [Continue your analysis…]"
-  },
-  {
-    "objectID": "blog/posts/2026-02-18-corn-planting/index.html#what-cow-calf-producers-should-watch",
-    "href": "blog/posts/2026-02-18-corn-planting/index.html#what-cow-calf-producers-should-watch",
-    "title": "What Tighter Corn Acres Mean for Cattle Feeders in 2026",
-    "section": "What Cow-Calf Producers Should Watch",
-    "text": "What Cow-Calf Producers Should Watch\nFeeder cattle demand at the sale barn is sensitive to feedlot margins. If corn stays elevated through summer, expect [your conclusion]…\n\nQuestions or comments? Email me."
-  },
-  {
     "objectID": "teaching.html",
     "href": "teaching.html",
     "title": "Teaching & CV",
@@ -144,13 +88,13 @@
     "href": "teaching.html#teaching-philosophy",
     "title": "Teaching & CV",
     "section": "Teaching Philosophy",
-    "text": "Teaching Philosophy\nMy primary objective in teaching is to help students enhance their ability to learn, solve problems, and add value with confidence.\nI teach the following courses: Ranch Management Economics Capstone, Introduction to Futures and Options, and graduate level Production Economics."
+    "text": "Teaching Philosophy\nMy primary objective in teaching is to help students enhance their ability to learn, solve problems, and add value with confidence. I teach the following courses: Ranch Management Economics Capstone, Introduction to Futures and Options, and graduate-level Production Economics."
   },
   {
     "objectID": "teaching.html#curriculum-vitae",
     "href": "teaching.html#curriculum-vitae",
     "title": "Teaching & CV",
     "section": "Curriculum Vitae",
-    "text": "Curriculum Vitae\n\n\n\nEducation\n\n\n2023\n\n\n\nPh.D., Agricultural Economics\n\n\nKansas State University\n\n\n\n\n\n2019\n\n\n\nM.S., Agricultural Economics\n\n\nPurdue University\n\n\n\n\n\n2017\n\n\n\nB.S., Agricultural Business\n\n\nBrigham Young University - Idaho\n\n\n\n\n\nPositions\n\n\n2026–\n\n\n\nAssistant Professor & Extension specialist\n\n\nUtah State University\n\n\n\n\n\n2023-25\n\n\n\nAssistant Professor\n\n\nUniversity of Arkansas\n\n\n\n\nDownload Full CV (PDF)"
+    "text": "Curriculum Vitae\n\n\n\nEducation\n\n\n2023\n\n\n\nPh.D., Agricultural Economics\n\n\nKansas State University\n\n\n\n\n\n2019\n\n\n\nM.S., Agricultural Economics\n\n\nPurdue University\n\n\n\n\n\n2017\n\n\n\nB.S., Agricultural Business\n\n\nBrigham Young University - Idaho\n\n\n\n\n\nPositions\n\n\n2026–\n\n\n\nAssistant Professor & Extension Specialist\n\n\nUtah State University\n\n\n\n\n\n2023–25\n\n\n\nAssistant Professor\n\n\nUniversity of Arkansas\n\n\n\n\n\n\n\nDownload Full CV (PDF)"
   }
 ]

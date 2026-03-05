@@ -1,5 +1,5 @@
 ---
-title: "Blog & Commentary"
+title: "Blog"
 listing:
   contents: posts
   sort: "date desc"
@@ -17,6 +17,6 @@ toc: false
 <span class="section-label">Market Commentary & Analysis</span>
 <div class="rule-accent"></div>
 
-Practical market analysis and economic commentary for cattle producers, ranchers, and agribusiness professionals in the western U.S. Posts are written for decision-makers, not academic audiences.
+This blog is where I post thoughts on a broad range of topics that are broadly within my professional interests. I also post research summaries for projects I am working on.
 
 ---

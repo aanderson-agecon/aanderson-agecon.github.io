@@ -9,15 +9,14 @@ toc-title: "Jump to"
 
 ## Teaching Philosophy
 
-My primary objective in teaching is to help students enhance their ability to learn, solve problems, and add value with confidence.
-
-I teach the following courses: Ranch Management Economics Capstone, Introduction to Futures and Options, and graduate level Production Economics.
+My primary objective in teaching is to help students enhance their ability to learn, solve problems, and add value with confidence. I teach the following courses: Ranch Management Economics Capstone, Introduction to Futures and Options, and graduate-level Production Economics.
 
 ---
 
 ## Curriculum Vitae
 
 ::: {.row .g-5}
+
 ::: {.col-md-6}
 
 ### Education
@@ -28,9 +27,12 @@ I teach the following courses: Ranch Management Economics Capstone, Introduction
 
 ### Positions
 
-<div class="cv-row"><div class="cv-year">2026–</div><div><div class="cv-title">Assistant Professor & Extension specialist</div><div class="cv-place">Utah State University</div></div></div>
-<div class="cv-row"><div class="cv-year">2023-25</div><div><div class="cv-title">Assistant Professor</div><div class="cv-place">University of Arkansas</div></div></div>
+<div class="cv-row"><div class="cv-year">2026–</div><div><div class="cv-title">Assistant Professor & Extension Specialist</div><div class="cv-place">Utah State University</div></div></div>
+<div class="cv-row"><div class="cv-year">2023–25</div><div><div class="cv-title">Assistant Professor</div><div class="cv-place">University of Arkansas</div></div></div>
 
+:::
+
+:::
 
 ::: {.text-center .mt-4}
 [Download Full CV (PDF)](cv.pdf){.btn-sage}
