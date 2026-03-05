@@ -31,8 +31,9 @@ toc: false
           <span class="tag">Livestock Risk Management</span>
         </div>
         <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:4px;">
-          <a href="work.qmd" class="btn-sage">Research &amp; Extension</a>
-          <a href="cv.pdf" class="btn-outline">Download CV</a>
+        <a href="work.qmd" class="btn-sage">Research &amp; Extension</a>
+        <a href="blog/index.qmd" class="btn-sage">Blog</a>
+        <a href="cv.pdf" class="btn-outline">Download CV</a>
         </div>
       </div>
     </div>

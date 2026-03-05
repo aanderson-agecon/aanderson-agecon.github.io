@@ -27,11 +27,8 @@ website:
         text: Blog
     right:
       - icon: envelope-fill
-        href: "mailto:andrewemeryanderson@gmail.com"
+        href: "mailto:a.anderson@usu.edu"
         aria-label: Email
-      - icon: github
-        href: "https://github.com/yourusername"
-        aria-label: GitHub
 
   page-footer:
     background: "#3c5c3e"
