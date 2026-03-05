@@ -4,7 +4,9 @@ project:
   render:
     - "*.qmd"
     - "blog/**/*.qmd"
-
+  resources:
+    - images/
+    
 website:
   title: "Dr. Andrew Anderson"
   site-url: "https://aanderson-agecon.github.io"
