@@ -7,7 +7,7 @@ toc-title: "Jump to"
 <span class="section-label">Scholarship & Outreach</span>
 <div class="rule-accent"></div>
 
-My research and extension work address the same questions from different angles — one for academic audiences and one for the producers, lenders, and policymakers who need actionable economic guidance. Below you'll find peer-reviewed publications alongside extension fact sheets, outlook reports, and decision tools.
+My work in research and extension aims to identify relevant questions, determine answers, and explore the implications for stakeholders.
 
 ---
 
@@ -18,50 +18,33 @@ My research and extension work address the same questions from different angles 
 <li class="pub-item">
 <div class="pub-year">2025</div>
 <div>
-<strong>"Basis Risk and Livestock Risk Protection Effectiveness Across Western Cattle Markets"</strong>
+<strong>"Feed Prices, Substitution Patterns, and Technical Efficiency in Feedlot Cattle"</strong>
 <span class="pub-badge badge-journal">Journal Article</span><br>
-<em>Journal of Agricultural and Resource Economics</em>, Vol. 50(1), pp. 44–70.<br>
-<a href="#">PDF</a> · <a href="#">Data & Code</a>
+Anderson, A.E., Mitchell, J.L., and Luke, J.R.<br>
+<em>Journal of Agricultural and Applied Economics</em>, Vol. 58(1), pp. 17–37.<br>
+<a href="https://doi.org/10.1017/aae.2025.10018">DOI</a>
 </div>
 </li>
 
 <li class="pub-item">
-<div class="pub-year">2024</div>
+<div class="pub-year">2025</div>
 <div>
-<strong>"Drought-Induced Herd Liquidation and the Dynamics of Cattle Inventory Recovery"</strong>
+<strong>"Assessing the Implicit Prices of Health and Wellness Product Attributes in Pet Food: A Hedonic Analysis Approach"</strong>
 <span class="pub-badge badge-journal">Journal Article</span><br>
-<em>American Journal of Agricultural Economics</em>, Vol. 106(3), pp. 889–914.<br>
-<a href="#">PDF</a>
+Hobbs, L. and Anderson, A.<br>
+<em>Journal of Agricultural and Applied Economics</em>, Vol. 57(2), pp. 321–339.<br>
+<a href="https://doi.org/10.1017/aae.2025.11">DOI</a>
 </div>
 </li>
 
 <li class="pub-item">
-<div class="pub-year">2024</div>
+<div class="pub-year">2020</div>
 <div>
-<strong>"Federal Grazing Permit Values and the Economics of Public Land Ranching"</strong>
-<span class="pub-badge badge-wp">Working Paper</span><br>
-<em>Western Economics Forum</em> — Under Review.<br>
-<a href="#">Pre-print</a>
-</div>
-</li>
-
-<li class="pub-item">
-<div class="pub-year">2023</div>
-<div>
-<strong>"Rangeland Lease Rates and Forage Market Integration in the Intermountain West"</strong>
+<strong>"An Analysis of Yield Variation Under Soil Conservation Practices"</strong>
 <span class="pub-badge badge-journal">Journal Article</span><br>
-<em>Land Economics</em>, Vol. 99(2), pp. 310–334.<br>
-<a href="#">PDF</a>
-</div>
-</li>
-
-<li class="pub-item">
-<div class="pub-year">2022</div>
-<div>
-<strong>"Price Discovery in Auction Barn versus Video Cattle Markets"</strong>
-<span class="pub-badge badge-journal">Journal Article</span><br>
-<em>Journal of Agricultural and Applied Economics</em>, Vol. 54(4), pp. 612–631.<br>
-<a href="#">PDF</a>
+Anderson, A.E., Hammac, W.A., Stott, D.E., and Tyner, W.E.<br>
+<em>Journal of Soil and Water Conservation</em>, Vol. 75(1), pp. 103–111.<br>
+<a href="https://doi.org/10.2489/jswc.75.1.103">DOI</a>
 </div>
 </li>
 
@@ -76,61 +59,35 @@ My research and extension work address the same questions from different angles 
 <ul class="pub-list">
 
 <li class="pub-item">
-<div class="pub-year">2026</div>
+<div class="pub-year">2025</div>
 <div>
-<strong>"Cow-Calf Enterprise Budget, [State] — 2026 Update"</strong>
+<strong>"Economic Impacts of Utility-Scale Wind Turbines: What Rural Arkansas Counties Need to Know"</strong>
 <span class="pub-badge badge-report">Fact Sheet</span><br>
-[University] Extension Publication [###].<br>
-<a href="#">PDF</a> · <a href="#">Excel Budget</a>
-</div>
-</li>
-
-<li class="pub-item">
-<div class="pub-year">2026</div>
-<div>
-<strong>"Stocker Cattle Budget and Breakeven Calculator — 2026"</strong>
-<span class="pub-badge badge-report">Fact Sheet</span><br>
-[University] Extension Publication [###].<br>
-<a href="#">PDF</a> · <a href="#">Excel Budget</a>
+Anderson, A.E., Hughes, M.N., and Goodman, H.P.<br>
+University of Arkansas Division of Agriculture, FSA102.<br>
+<a href="https://www.uaex.uada.edu/publications/pdf/FSA102.pdf">PDF</a>
 </div>
 </li>
 
 <li class="pub-item">
 <div class="pub-year">2025</div>
 <div>
-<strong>"Understanding Livestock Risk Protection (LRP) Insurance for Cattle"</strong>
-<span class="pub-badge badge-report">Fact Sheet</span><br>
-[University] Extension Publication [###].<br>
-<a href="#">PDF</a>
+<strong>"Economic Impacts of Utility-Scale Wind Turbine Generators on Rural Counties in the U.S.: Implications for Arkansas"</strong>
+<span class="pub-badge badge-report">Extension Report</span><br>
+Anderson, A.E., Hughes, M.N., and Goodman, H.P.<br>
+University of Arkansas Division of Agriculture, Publication FC-2025-005, September 2025.<br>
+<a href="https://bpb-us-e1.wpmucdn.com/wordpressua.uark.edu/dist/6/907/files/2025/12/Economic-Impacts-of-Utility-scale-Wind-Turbine-Generators-.pdf">PDF</a>
 </div>
 </li>
 
 <li class="pub-item">
-<div class="pub-year">2025</div>
+<div class="pub-year">2022</div>
 <div>
-<strong>"Drought Management Decision Framework for Western Cow-Calf Operators"</strong>
-<span class="pub-badge badge-report">Report</span><br>
-[University] Extension, in cooperation with [partner agency].<br>
-<a href="#">PDF</a>
-</div>
-</li>
-
-<li class="pub-item">
-<div class="pub-year">2025</div>
-<div>
-<strong>"[State/Region] Cattle Market Outlook — Spring 2025"</strong>
-<span class="pub-badge badge-report">Outlook</span><br>
-<a href="#">PDF</a> · <a href="#">Archive</a>
-</div>
-</li>
-
-<li class="pub-item">
-<div class="pub-year">2024</div>
-<div>
-<strong>"Cash Leasing Rates for Rangeland in [State]: Survey Results and Trends"</strong>
-<span class="pub-badge badge-report">Report</span><br>
-[University] Extension Publication [###].<br>
-<a href="#">PDF</a>
+<strong>"An Updated Evaluation of the U.S. Cattle Cycle"</strong>
+<span class="pub-badge badge-report">Extension Publication</span><br>
+Luke, J.R., Anderson, A.E., and Tonsor, G.T.<br>
+Kansas State University Department of Agricultural Economics, March 2022.<br>
+<a href="https://agmanager.info/livestock-meat/production-economics/updated-evaluation-us-cattle-cycle">agmanager.info</a>
 </div>
 </li>
 
@@ -138,40 +95,3 @@ My research and extension work address the same questions from different angles 
 
 ---
 
-## Decision Tools
-
-<div class="tool-card">
-<h4>🐄 LRP Premium & Coverage Calculator</h4>
-<p>Estimate Livestock Risk Protection insurance premiums, coverage levels, and expected indemnity payments for feeder and fed cattle. Updated weekly with current CME prices.</p>
-<a href="#" class="btn-sage" style="font-size:0.82rem; padding:6px 16px;">Download (Excel)</a>
-</div>
-
-<div class="tool-card">
-<h4>📋 Cow-Calf Enterprise Budget</h4>
-<p>Customizable enterprise budget for cow-calf operations. Enter your own costs and production parameters to calculate breakeven prices and net returns per cow.</p>
-<a href="#" class="btn-sage" style="font-size:0.82rem; padding:6px 16px;">Download (Excel)</a>
-</div>
-
-<div class="tool-card">
-<h4>📈 Stocker Breakeven Calculator</h4>
-<p>Calculate purchase price limits, placement costs, and projected returns for stocker and backgrounding operations under alternative weight gain and price scenarios.</p>
-<a href="#" class="btn-sage" style="font-size:0.82rem; padding:6px 16px;">Download (Excel)</a>
-</div>
-
-<div class="tool-card">
-<h4>💧 Drought Herd Reduction Planner</h4>
-<p>A structured decision framework to evaluate the economics of early versus delayed herd liquidation under drought conditions, accounting for forage costs, cow values, and restocking outlook.</p>
-<a href="#" class="btn-sage" style="font-size:0.82rem; padding:6px 16px;">Download (Excel)</a>
-</div>
-
----
-
-## Grants & Funding
-
-| Years | Project | Agency | Role |
-|-------|---------|--------|------|
-| 2025–27 | [Project Title] | USDA-NIFA | PI |
-| 2024–25 | [Project Title] | [State] Beef Council | Co-PI |
-| 2022–24 | [Project Title] | Western SARE | PI |
-
-: {tbl-colwidths="[14,52,22,12]"}
