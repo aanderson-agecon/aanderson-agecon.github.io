@@ -1,0 +1,217 @@
+/* ══════════════════════════════════════════════════════
+   Dr. Andrew Anderson — Quarto Website
+   Palette: sage, rust, sand — western livestock
+   ══════════════════════════════════════════════════════ */
+
+:root {
+  --sage:      #5a7a5c;
+  --sage-dk:   #3c5c3e;
+  --rust:      #a84f2a;
+  --rust-lt:   #f0ddd4;
+  --sand:      #f5f0e6;
+  --sand-dk:   #ede4d4;
+  --slate:     #6e7d8a;
+  --charcoal:  #2e2b25;
+  --radius:    8px;
+  --shadow:    0 2px 12px rgba(0,0,0,0.07);
+  --trans:     0.2s ease;
+}
+
+/* ── Base ───────────────────────────────────────────── */
+body {
+  background-color: var(--sand) !important;
+  color: var(--charcoal);
+  font-family: 'Georgia', serif;
+  line-height: 1.75;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Georgia', serif;
+  font-weight: normal;
+  color: var(--sage-dk);
+}
+
+p { color: #4a4540; }
+a { color: var(--rust); transition: color var(--trans); }
+a:hover { color: var(--sage-dk); text-decoration: none; }
+
+hr { border-color: #d8ccbc; margin: 2.5rem 0; }
+
+/* ── Navbar ─────────────────────────────────────────── */
+.navbar { background-color: var(--sage-dk) !important; border-bottom: 2px solid var(--rust); }
+.navbar-brand,
+.navbar-nav .nav-link { color: #f5f0e6 !important; font-family: 'Arial', sans-serif; font-size: 0.88rem; font-weight: 600; }
+.navbar-nav .nav-link:hover { color: var(--rust-lt) !important; }
+
+/* ── Hero ───────────────────────────────────────────── */
+.hero-band {
+  background: linear-gradient(160deg, #eee8d9 55%, #dde6dc 100%);
+  padding: 56px 0 64px;
+  border-bottom: 1px solid #d4c8b4;
+}
+
+.profile-photo {
+  width: 200px; height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  box-shadow: 0 6px 24px rgba(60,92,62,0.18);
+}
+
+.profile-placeholder {
+  width: 200px; height: 200px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #b8ccba 0%, #8aad8d 100%);
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'Arial', sans-serif; font-size: 0.75rem;
+  color: var(--sage-dk); text-align: center;
+  border: 3px solid white;
+  box-shadow: 0 6px 24px rgba(60,92,62,0.18);
+}
+
+/* ── Tags ───────────────────────────────────────────── */
+.tag {
+  display: inline-block;
+  background: var(--rust-lt);
+  color: var(--rust);
+  border: 1px solid #d4a08a;
+  border-radius: 4px;
+  padding: 2px 11px;
+  font-family: 'Arial', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin: 3px 2px;
+}
+
+/* ── Section label ──────────────────────────────────── */
+.section-label {
+  display: block;
+  font-family: 'Arial', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--rust);
+  margin-bottom: 4px;
+}
+
+.rule-accent {
+  width: 40px; height: 2px;
+  background: var(--rust);
+  border-radius: 2px;
+  margin: 6px 0 24px;
+}
+
+/* ── Buttons ────────────────────────────────────────── */
+.btn-sage {
+  display: inline-block;
+  padding: 9px 22px;
+  background: var(--sage);
+  color: white !important;
+  border-radius: var(--radius);
+  font-family: 'Arial', sans-serif;
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background var(--trans);
+}
+.btn-sage:hover { background: var(--sage-dk); color: white !important; }
+
+.btn-outline {
+  display: inline-block;
+  padding: 9px 22px;
+  background: transparent;
+  color: var(--sage-dk) !important;
+  border: 2px solid var(--sage);
+  border-radius: var(--radius);
+  font-family: 'Arial', sans-serif;
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all var(--trans);
+}
+.btn-outline:hover { background: var(--sage); color: white !important; }
+
+/* ── Publication list ───────────────────────────────── */
+.pub-list { list-style: none; padding: 0; }
+
+.pub-item {
+  display: flex;
+  gap: 16px;
+  padding: 18px 0;
+  border-bottom: 1px solid #d8ccbc;
+}
+.pub-item:first-child { border-top: 1px solid #d8ccbc; }
+
+.pub-year {
+  font-family: 'Arial', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--rust);
+  min-width: 40px;
+  padding-top: 2px;
+}
+
+.pub-badge {
+  display: inline-block;
+  font-family: 'Arial', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 1px 7px;
+  border-radius: 3px;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+.badge-journal { background: #dce8de; color: var(--sage-dk); }
+.badge-wp      { background: var(--rust-lt); color: var(--rust); }
+.badge-report  { background: #e6e0d4; color: #5a5040; }
+
+/* ── Tool cards ─────────────────────────────────────── */
+.tool-card {
+  background: white;
+  border-radius: var(--radius);
+  padding: 20px 22px;
+  border-left: 3px solid var(--sage);
+  box-shadow: var(--shadow);
+  margin-bottom: 14px;
+}
+.tool-card h4 { font-size: 1rem; margin-bottom: 4px; }
+.tool-card p  { font-size: 0.88rem; margin-bottom: 6px; }
+
+/* ── Courses ────────────────────────────────────────── */
+.course-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 10px 0;
+  border-bottom: 1px solid #d8ccbc;
+  gap: 12px;
+}
+.course-row:first-child { border-top: 1px solid #d8ccbc; }
+.course-code  { font-family: 'Arial', sans-serif; font-size: 0.78rem; font-weight: 700; color: var(--rust); }
+.course-title { font-size: 0.95rem; }
+.course-level {
+  font-family: 'Arial', sans-serif; font-size: 0.72rem; font-weight: 700;
+  color: var(--slate); white-space: nowrap;
+}
+
+/* ── CV entries ─────────────────────────────────────── */
+.cv-row {
+  display: flex; gap: 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid #d8ccbc;
+}
+.cv-row:first-child { border-top: 1px solid #d8ccbc; }
+.cv-year { font-family: 'Arial', sans-serif; font-size: 0.78rem; font-weight: 700; color: var(--rust); min-width: 52px; padding-top: 2px; }
+.cv-title { font-size: 0.95rem; color: var(--charcoal); margin-bottom: 1px; }
+.cv-place { font-family: 'Arial', sans-serif; font-size: 0.82rem; color: var(--slate); }
+
+/* ── Blog listing ───────────────────────────────────── */
+.quarto-listing-default .card { border: none !important; border-radius: var(--radius) !important; box-shadow: var(--shadow) !important; }
+.quarto-listing-default .card-title a { color: var(--sage-dk) !important; }
+.quarto-listing-default .listing-category { color: var(--rust) !important; font-weight: 700; }
+
+/* ── Footer ─────────────────────────────────────────── */
+.nav-footer { background-color: var(--sage-dk) !important; border-top: none !important; }
+.nav-footer, .nav-footer a { color: #aabfac !important; font-family: 'Arial', sans-serif; font-size: 0.85rem; }
+.nav-footer a:hover { color: white !important; }

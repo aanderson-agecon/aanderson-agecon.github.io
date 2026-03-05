@@ -1,11 +1,15 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "blog/**/*.qmd"
 
 website:
   title: "Dr. Andrew Anderson"
+  site-url: "https://aanderson-agecon.github.io"
   description: "Extension Economist & Professor"
-  favicon: "images/favicon.png"
+  favicon: "images/Headshot.png"
 
   navbar:
     background: "#3c5c3e"
@@ -43,7 +47,8 @@ website:
 
 format:
   html:
-    theme: [cosmo, styles.css]
+    theme: cosmo
+    css: styles.css
     toc: false
     smooth-scroll: true
     link-external-newwindow: true
