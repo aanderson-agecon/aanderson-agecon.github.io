@@ -3,7 +3,7 @@ title: "What Happens to Feedlot Performance When Feed Prices Shift?"
 date: "2025-09-15"
 categories: [Feedlots, Feed Costs, Research]
 description: "Feed price changes don't just raise costs — they trigger substitution decisions that can meaningfully improve or hurt cattle performance."
-image: ""
+image: "feedlot.jpg"
 ---
 
 Feed costs typically account for 60–70% of the total cost of gaining a pound of beef in a feedlot, which makes feedlot managers acutely sensitive to prices for corn, distillers grains, hay, and the many other ingredients that flow in and out of a finishing ration. While the relationship between feed costs and profitability is well-established in the literature, the mechanism through which feed prices affect cattle performance is less understood. In a study I recently published with co-authors James Mitchell and Jaime Luke in the *Journal of Agricultural and Applied Economics*, we examine that mechanism directly.
