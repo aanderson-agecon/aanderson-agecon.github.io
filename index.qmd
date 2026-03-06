@@ -19,10 +19,13 @@ toc: false
           Assistant Professor &amp; Extension Specialist in Livestock Economics · Utah State University
         </p>
         <p style="max-width:560px;">
-          I study the economics of livestock production, with a focus on beef cattle markets,
-          rangeland management, and risk management tools for cow-calf and
-          stocker operators. My extension program delivers practical economic analysis directly to
+          I study the economics of livestock production and marketing, with a focus on the Intermountain West.
+          My extension program delivers practical economic analysis to
           producers and industry stakeholders across the region.
+          
+          I attended BYU-Idaho, Purdue, and completed my Ph.D. at Kansas State University. 
+          I was raised in rural Idaho, surrounded by agriculture, and that practical background
+          continues to inform my work.
         </p>
         <div class="mb-3">
           <span class="tag">Production Economics</span>
@@ -41,27 +44,6 @@ toc: false
 </div>
 ```
 
-## About
-
-<span class="section-label">Background</span>
-<div class="rule-accent"></div>
-
-I am an assistant professor and extension economist in the Department of Agricultural & Resource Economics at Utah State University. My work centers on the economics of livestock production and marketing across the Intermountain West.
-
-I completed my Ph.D. at Kansas State University, where my dissertation examined market impacts of the PRF Rainfall Index Insurance program and loss aversion among meat consumers. I was raised in rural Idaho, surrounded by agriculture, and that practical background continues to inform my everyday work.
-
-::: {.row .mt-4}
-::: {.col-md-8}
-
-### Research & Extension Focus
-
-- Livestock market price dynamics and basis
-- Livestock production decisions 
-- Livestock risk management
-- Economics of rangeland improvements
-
-
-:::
 :::
 
 ### Contact
@@ -71,5 +53,4 @@ I completed my Ph.D. at Kansas State University, where my dissertation examined 
 
 [Google Scholar](https://scholar.google.com/citations?user=sE1rhdYAAAAJ&hl=en) · [ORCID](https://orcid.org/0009-0000-9478-0703)
 
-:::
 :::
