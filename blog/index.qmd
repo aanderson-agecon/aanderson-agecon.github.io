@@ -14,9 +14,7 @@ page-layout: full
 toc: false
 ---
 
-<span class="section-label">Market Commentary & Analysis</span>
-<div class="rule-accent"></div>
 
-This blog is where I post thoughts on a broad range of topics that are broadly within my professional interests. I also post research summaries for projects I am working on.
+This is where I will post thoughts on a range of topics that are broadly within my professional interests. I will also post research summaries for projects I am working on.
 
 ---

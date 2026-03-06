@@ -32,49 +32,63 @@
     "href": "index.html#about",
     "title": "\n          Dr. Andrew E. Anderson\n        ",
     "section": "About",
-    "text": "About\nBackground\n\n\n\nI study the economics of livestock production and marketing, with a focus on the Intermountain West. My extension program delivers practical economic analysis to producers and industry stakeholders across the region.\nI attended BYU-Idaho, Purdue, and completed my Ph.D. at Kansas State University. I was raised in rural Idaho, surrounded by agriculture, and that practical background continues to inform my work.\n\nContact\nEmail: a.anderson@usu.edu Office: AGRS 227\nGoogle Scholar · ORCID"
+    "text": "About\nI study the economics of livestock production and marketing, with a focus on the Intermountain West. My extension program delivers practical economic analysis to producers and industry stakeholders across the region.\nI attended BYU-Idaho, Purdue, and completed my Ph.D. at Kansas State University. I was raised in rural Idaho, surrounded by agriculture, and that practical background continues to inform my work.\n\nContact\nEmail: a.anderson@usu.edu Office: AGRS 227\nGoogle Scholar · ORCID"
   },
   {
     "objectID": "blog/index.html",
     "href": "blog/index.html",
     "title": "Blog",
     "section": "",
-    "text": "Market Commentary & Analysis\n\n\n\nThis blog is where I post thoughts on a broad range of topics that are broadly within my professional interests. I also post research summaries for projects I am working on.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQ4 Ag Credit Survey: What It Signals for Western Cattle Operations\n\n1 min\n\n\nRanch Finance\n\nCredit Markets\n\nOutlook\n\n\n\nThe Federal Reserve’s latest agricultural credit survey shows mixed signals. Here’s what the data say for ranchers heading into 2026.\n\n\n\nDec 12, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "This is where I will post thoughts on a range of topics that are broadly within my professional interests. I will also post research summaries for projects I am working on.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat Happens to Feedlot Performance When Feed Prices Shift?\n\n6 min\n\n\nFeedlots\n\nFeed Costs\n\nResearch\n\n\n\nNew research shows that feed price changes don’t just raise costs — they trigger substitution decisions that can meaningfully improve or hurt cattle performance.\n\n\n\nSep 15, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "blog/posts/2025-12-12-credit-conditions/index.html",
-    "href": "blog/posts/2025-12-12-credit-conditions/index.html",
-    "title": "Q4 Ag Credit Survey: What It Signals for Western Cattle Operations",
+    "objectID": "blog/posts/feedlot-blog-post.html",
+    "href": "blog/posts/feedlot-blog-post.html",
+    "title": "What Happens to Feedlot Performance When Feed Prices Shift?",
     "section": "",
-    "text": "Replace with your own analysis.\nThe Kansas City and San Francisco Fed districts — the two most relevant to western cattle operations — both published their Q4 agricultural credit surveys last week. The headline numbers are mixed, with some improvement in loan repayment rates but continued softness in operating loan demand and a modest cooling of farmland values in drought-affected counties."
+    "text": "Feed costs typically account for 60–70% of the total cost of gaining a pound of beef in a feedlot. That makes feedlot managers acutely sensitive to prices for corn, distillers grains, hay, and a dozen other ingredients that flow in and out of a finishing ration. But here’s a question that hasn’t gotten much attention in the research literature: when feed prices move, how does that actually affect how well cattle perform?\nThe intuitive answer is that higher feed prices hurt profitability because feed expenses go up. That’s true — but it’s incomplete. In a study I recently published with co-authors James Mitchell and Jaime Luke in the Journal of Agricultural and Applied Economics, we dig into a more nuanced story. When prices shift, feedlot managers don’t just absorb the cost — they adapt. They substitute one ingredient for another. And those substitution decisions ripple through to how efficiently cattle gain weight."
   },
   {
-    "objectID": "blog/posts/2025-12-12-credit-conditions/index.html#repayment-rates",
-    "href": "blog/posts/2025-12-12-credit-conditions/index.html#repayment-rates",
-    "title": "Q4 Ag Credit Survey: What It Signals for Western Cattle Operations",
-    "section": "Repayment Rates",
-    "text": "Repayment Rates\n[Your analysis of the specific survey data]\n\n\nPull and chart Fed ag credit data with fredr + ggplot2."
+    "objectID": "blog/posts/feedlot-blog-post.html#the-setup-three-measures-of-feedlot-performance",
+    "href": "blog/posts/feedlot-blog-post.html#the-setup-three-measures-of-feedlot-performance",
+    "title": "What Happens to Feedlot Performance When Feed Prices Shift?",
+    "section": "The Setup: Three Measures of Feedlot Performance",
+    "text": "The Setup: Three Measures of Feedlot Performance\nWe looked at three measures of technical efficiency that feedlot managers track closely:\nFeed Conversion Ratio (FCR) — pounds of feed per pound of gain. Lower is better. A feedlot running a 5.8 FCR is getting more out of every pound of feed than one running a 6.5.\nAverage Daily Gain (ADG) — pounds gained per day. Higher is better. Faster-gaining cattle reach slaughter weight sooner, which reduces overhead costs per head.\nDays on Feed (DOF) — how long cattle are on feed before closeout. Shorter is generally better, all else equal.\nWe used nearly 30 years of monthly closeout data from the Kansas Focus on Feedlots survey — one of the most widely used benchmarks for feedlot performance in the industry — spanning April 1995 through September 2024."
   },
   {
-    "objectID": "blog/posts/2025-12-12-credit-conditions/index.html#farmland-values-in-drought-country",
-    "href": "blog/posts/2025-12-12-credit-conditions/index.html#farmland-values-in-drought-country",
-    "title": "Q4 Ag Credit Survey: What It Signals for Western Cattle Operations",
-    "section": "Farmland Values in Drought Country",
-    "text": "Farmland Values in Drought Country\nOne notable pattern this quarter: [your analysis of farmland values in drought-affected western counties vs. more favorable areas]"
+    "objectID": "blog/posts/feedlot-blog-post.html#what-drives-the-changes-substitution-not-just-cost",
+    "href": "blog/posts/feedlot-blog-post.html#what-drives-the-changes-substitution-not-just-cost",
+    "title": "What Happens to Feedlot Performance When Feed Prices Shift?",
+    "section": "What Drives the Changes: Substitution, Not Just Cost",
+    "text": "What Drives the Changes: Substitution, Not Just Cost\nThe key insight behind this research is that feed price changes work through multiple pathways. Yes, higher prices mean higher costs if nothing else changes. But feedlot managers are optimizing continuously. When corn gluten feed gets cheaper relative to distillers grains, a nutritionist adjusts the ration. When alfalfa spikes, roughage sources shift. These substitutions change the composition of what cattle are eating — and that changes how efficiently they convert feed to gain.\nWe estimated three separate effects for each feedstuff:\n\nTotal effect — the combined impact of a price change on efficiency, including all the ways a feedlot might respond (changing slaughter weights, placement weights, and ration composition)\nInput substitution effect — what happens when you account for changes in placement and slaughter weights but isolate the feed switching behavior\nFeed substitution effect — the purest look at how switching between feedstuffs, holding cattle weights constant, affects performance\n\nThe consistent finding across all three model specifications: feed substitution is the dominant driver. It’s not primarily about feeding cattle more or less — it’s about what they’re switched to."
   },
   {
-    "objectID": "blog/posts/2025-12-12-credit-conditions/index.html#collateral-and-operating-loan-terms",
-    "href": "blog/posts/2025-12-12-credit-conditions/index.html#collateral-and-operating-loan-terms",
-    "title": "Q4 Ag Credit Survey: What It Signals for Western Cattle Operations",
-    "section": "Collateral and Operating Loan Terms",
-    "text": "Collateral and Operating Loan Terms\n[Your analysis of collateral requirement and loan term changes]"
+    "objectID": "blog/posts/feedlot-blog-post.html#the-specific-results-some-surprises",
+    "href": "blog/posts/feedlot-blog-post.html#the-specific-results-some-surprises",
+    "title": "What Happens to Feedlot Performance When Feed Prices Shift?",
+    "section": "The Specific Results: Some Surprises",
+    "text": "The Specific Results: Some Surprises\nNot every feed ingredient behaved the way you might expect.\nAlfalfa — When alfalfa prices rise, FCR actually improves (decreases), and cattle gain weight faster. This might seem backward, but it makes sense when you consider that alfalfa is not just a roughage — it’s also a significant source of protein and energy. When alfalfa gets expensive and feedlots substitute away from it, they tend to replace it with even higher-energy or higher-protein feeds to maintain diet quality, and that substitution boosts performance.\nDried Distillers Grains (DDGs) — This is one of the most important findings from a management standpoint. When DDG prices rise, cattle spend significantly more days on feed and gain weight more slowly. DDGs are a high-energy, high-protein by-product of ethanol production that feedlots rely on heavily. When they become relatively more expensive and feedlots substitute to lower-energy alternatives, cattle performance takes a real hit. This highlights just how valuable DDGs are as a feedlot ingredient.\nSorghum and Barley — Higher prices for these grains are consistently associated with worse FCR and slower gains. When these ingredients get expensive and are substituted out of rations, the alternatives don’t perform as well on the margin.\nSoymeal and Wheat — Higher prices for both are associated with improved FCR, suggesting that when feedlots substitute away from these at the margin, the replacement feeds are doing more work per pound.\nCorn — Here’s the biggest surprise: changes in corn prices are not statistically associated with changes in FCR, ADG, or days on feed. Given that corn is the foundation of virtually every feedlot ration, this result is striking. There are two plausible explanations. First, demand for corn as a feed ingredient may be relatively price-inelastic — feedlots don’t cut corn much even when it gets expensive, because there’s no close substitute that works as well. Second, when feedlots do substitute away from corn, they’re swapping in grains (like sorghum) with similar nutritional profiles, so the performance impact washes out."
   },
   {
-    "objectID": "blog/posts/2025-12-12-credit-conditions/index.html#what-to-watch-in-2026",
-    "href": "blog/posts/2025-12-12-credit-conditions/index.html#what-to-watch-in-2026",
-    "title": "Q4 Ag Credit Survey: What It Signals for Western Cattle Operations",
-    "section": "What to Watch in 2026",
-    "text": "What to Watch in 2026\n[Your forward-looking commentary for cattle producers and ranchers]\n\nThis post reflects my own analysis and is not an official position of [University Name] or any Federal Reserve Bank.\nQuestions? Email me."
+    "objectID": "blog/posts/feedlot-blog-post.html#what-this-means-for-producers-and-managers",
+    "href": "blog/posts/feedlot-blog-post.html#what-this-means-for-producers-and-managers",
+    "title": "What Happens to Feedlot Performance When Feed Prices Shift?",
+    "section": "What This Means for Producers and Managers",
+    "text": "What This Means for Producers and Managers\nFor feedlot managers, the takeaway is that not all feed price increases are created equal. A spike in DDG prices carries real efficiency consequences — expect cattle to stay on feed longer and gain more slowly if you substitute to lower-energy alternatives. A spike in alfalfa prices may actually push you toward a more efficient ration if the substitutes maintain your energy and protein targets.\nThis research doesn’t tell managers what decisions to make — feedlot nutritionists are already optimizing these trade-offs every day, and the efficiency effects observed here are the result of those optimal decisions. What it does offer is a clearer picture of the performance consequences managers should anticipate and plan around as market conditions shift."
+  },
+  {
+    "objectID": "blog/posts/feedlot-blog-post.html#the-policy-angle",
+    "href": "blog/posts/feedlot-blog-post.html#the-policy-angle",
+    "title": "What Happens to Feedlot Performance When Feed Prices Shift?",
+    "section": "The Policy Angle",
+    "text": "The Policy Angle\nThere’s also an important policy dimension to these findings. Programs that influence commodity prices — particularly ethanol mandates under the Renewable Fuel Standard — affect the supply and price of both corn and DDGs simultaneously. Our results suggest that policy-driven price changes for DDGs in particular could have meaningful consequences for feedlot efficiency and, by extension, greenhouse gas emissions from the cattle sector. Research has shown that the total emissions from a fed steer are influenced by how many days it spends on feed. If policy changes increase DDG prices and push cattle to spend more days on feed, that’s an unintended consequence worth accounting for."
+  },
+  {
+    "objectID": "blog/posts/feedlot-blog-post.html#the-bottom-line",
+    "href": "blog/posts/feedlot-blog-post.html#the-bottom-line",
+    "title": "What Happens to Feedlot Performance When Feed Prices Shift?",
+    "section": "The Bottom Line",
+    "text": "The Bottom Line\nFeed prices don’t just affect the cost column on a closeout sheet — they trigger management responses that reshape how efficiently cattle perform. In our analysis, the effect works primarily through feed substitution: switching to a different ingredient changes the marginal productivity of the ration, and that shows up in FCR, ADG, and days on feed. DDGs stand out as particularly important for maintaining performance, while corn price changes appear to have surprisingly little detectable effect on efficiency outcomes.\n\nThis post summarizes findings from: Anderson, A.E., J.L. Mitchell, and J.R. Luke. 2026. “Feed Prices, Substitution Patterns, and Technical Efficiency in Feedlot Cattle.” Journal of Agricultural and Applied Economics 58(1):17–37. https://doi.org/10.1017/aae.2025.10018"
   },
   {
     "objectID": "teaching.html",
