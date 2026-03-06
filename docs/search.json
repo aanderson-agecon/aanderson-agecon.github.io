@@ -39,7 +39,7 @@
     "href": "blog/index.html",
     "title": "Blog",
     "section": "",
-    "text": "This is where I will post thoughts on a range of topics that are broadly within my professional interests. I will also post research summaries for projects I am working on.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat Happens to Feedlot Performance When Feed Prices Shift?\n\n6 min\n\n\nFeedlots\n\nFeed Costs\n\nResearch\n\n\n\nFeed price changes don’t just raise costs — they trigger substitution decisions that can meaningfully improve or hurt cattle performance.\n\n\n\nSep 15, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "This is where I will post thoughts on a range of topics that are broadly within my professional interests. I will also post research summaries for projects I am working on.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Economics of AI and Employment: Why the Net Effect Is Not as Clear as It Seems\n\n7 min\n\n\nAI\n\nLabor Economics\n\nTechnology\n\n\n\nPublic discussion of AI’s employment effects tends to focus on substitution while neglecting the output response. A more complete accounting suggests considerably more…\n\n\n\nMar 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat Happens to Feedlot Performance When Feed Prices Shift?\n\n6 min\n\n\nFeedlots\n\nFeed Costs\n\nResearch\n\n\n\nFeed price changes don’t just raise costs — they trigger substitution decisions that can meaningfully improve or hurt cattle performance.\n\n\n\nSep 15, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/posts/feedlot-blog-post.html",
@@ -103,5 +103,75 @@
     "title": "Teaching & CV",
     "section": "Curriculum Vitae",
     "text": "Curriculum Vitae\n\n\n\nEducation\n\n\n2023\n\n\n\nPh.D., Agricultural Economics\n\n\nKansas State University\n\n\n\n\n\n2019\n\n\n\nM.S., Agricultural Economics\n\n\nPurdue University\n\n\n\n\n\n2017\n\n\n\nB.S., Agricultural Business\n\n\nBrigham Young University - Idaho\n\n\n\n\n\nPositions\n\n\n2026–\n\n\n\nAssistant Professor & Extension Specialist\n\n\nUtah State University\n\n\n\n\n\n2023–25\n\n\n\nAssistant Professor\n\n\nUniversity of Arkansas\n\n\n\n\n\n\n\nDownload Full CV (PDF)"
+  },
+  {
+    "objectID": "blog/posts/ai-employment-blog-post.html",
+    "href": "blog/posts/ai-employment-blog-post.html",
+    "title": "The Economics of AI and Employment: Why the Net Effect Is Not as Clear as It Seems",
+    "section": "",
+    "text": "Public concern about artificial intelligence displacing workers follows a pattern that is well-established in economic history. The power loom, the steam engine, the assembly line, and the personal computer each prompted similar predictions of widespread job loss. In each case, the technology did displace workers from specific tasks, but the aggregate employment consequences were more modest than feared, because cost reductions also expanded output and generated demand for labor in new and existing industries. Whether AI follows the same path is a genuinely open empirical question — but the analytical framework for thinking through it is straightforward, and it suggests considerably more ambiguity than most popular accounts acknowledge."
+  },
+  {
+    "objectID": "blog/posts/ai-employment-blog-post.html#a-general-production-framework",
+    "href": "blog/posts/ai-employment-blog-post.html#a-general-production-framework",
+    "title": "The Economics of AI and Employment: Why the Net Effect Is Not as Clear as It Seems",
+    "section": "A General Production Framework",
+    "text": "A General Production Framework\nConsider a representative economy producing output \\(Y\\) using capital \\(K\\) and labor \\(L\\):\n\\[Y = F(K, L)\\]\nwhere \\(F\\) satisfies standard neoclassical properties: \\(F_K, F_L &gt; 0\\) and \\(F_{KK}, F_{LL} &lt; 0\\). In competitive input markets, factors are paid their marginal products:\n\\[w = F_L(K, L) \\qquad r = F_K(K, L)\\]\nEquilibrium input demands satisfy \\(F_L / F_K = w / r\\)."
+  },
+  {
+    "objectID": "blog/posts/ai-employment-blog-post.html#ai-as-a-shift-in-relative-marginal-products",
+    "href": "blog/posts/ai-employment-blog-post.html#ai-as-a-shift-in-relative-marginal-products",
+    "title": "The Economics of AI and Employment: Why the Net Effect Is Not as Clear as It Seems",
+    "section": "AI as a Shift in Relative Marginal Products",
+    "text": "AI as a Shift in Relative Marginal Products\nAI can be modeled as a capital-augmenting technological shock that raises the effective productivity of capital relative to labor. Let \\(\\theta &gt; 0\\) parameterize the degree of AI adoption:\n\\[Y = F(\\theta K, L)\\]\nAs \\(\\theta\\) increases, the marginal product of capital rises and the relative marginal product of labor falls:\n\\[MPK = \\theta \\cdot F_K(\\theta K, L) \\uparrow \\qquad \\frac{MPL}{MPK} \\downarrow\\]\nThis shift has two simultaneous effects: it lowers the relative cost of using capital, and it lowers the marginal cost of producing output. Both effects matter, and they pull labor demand in opposite directions."
+  },
+  {
+    "objectID": "blog/posts/ai-employment-blog-post.html#the-output-response-and-why-measuring-it-is-difficult",
+    "href": "blog/posts/ai-employment-blog-post.html#the-output-response-and-why-measuring-it-is-difficult",
+    "title": "The Economics of AI and Employment: Why the Net Effect Is Not as Clear as It Seems",
+    "section": "The Output Response — and Why Measuring It Is Difficult",
+    "text": "The Output Response — and Why Measuring It Is Difficult\nBecause AI raises effective capital productivity, the minimum cost of producing any given \\(Y\\) falls. In a competitive product market, lower marginal cost pushes price toward the new, lower \\(MC\\), and equilibrium output expands:\n\\[MC \\downarrow \\Longrightarrow P \\downarrow \\Longrightarrow Q^D \\uparrow \\Longrightarrow Y^* \\uparrow\\]\nA complication is that standard GDP measurement likely understates this output expansion for AI. GDP captures market transactions at market prices, but a substantial share of AI’s value flows to users through free or heavily subsidized products. When producers use free AI tools to improve decision-making or operational efficiency, real economic value is created that does not appear in measured output. Economists have documented similar mismeasurement for digital goods more broadly; estimates suggest that free digital services generate consumer surplus worth hundreds of billions of dollars annually that conventional statistics miss (Brynjolfsson et al., 2019). The implication is that the true output effect of AI may be larger than GDP-based analyses would suggest, which strengthens the case that labor demand responses are being underestimated."
+  },
+  {
+    "objectID": "blog/posts/ai-employment-blog-post.html#decomposing-the-labor-demand-response",
+    "href": "blog/posts/ai-employment-blog-post.html#decomposing-the-labor-demand-response",
+    "title": "The Economics of AI and Employment: Why the Net Effect Is Not as Clear as It Seems",
+    "section": "Decomposing the Labor Demand Response",
+    "text": "Decomposing the Labor Demand Response\nThe total effect on labor demand can be decomposed as:\n\\[\\frac{dL}{d\\theta} = \\underbrace{\\left.\\frac{\\partial L}{\\partial \\theta}\\right|_{\\bar{Y}}}_{\\text{Substitution Effect } (-)} + \\underbrace{\\frac{\\partial L}{\\partial Y} \\cdot \\frac{dY}{d\\theta}}_{\\text{Output Effect } (+)}\\]\nThe substitution effect is negative: holding output constant, the relative cheapening of effective capital induces firms to substitute toward \\(K\\) and away from \\(L\\). This effect is real, but it represents only part of the full response.\nThe output effect is positive: AI-driven cost reductions expand equilibrium output \\(Y^*\\), and since \\(\\partial L / \\partial Y &gt; 0\\), this scale expansion pulls labor demand upward.\nThe net effect on employment is therefore theoretically indeterminate:\n\\[\\text{sign}\\left(\\frac{dL}{d\\theta}\\right) = \\text{sign}\\left(|\\text{Output Effect}| - |\\text{Substitution Effect}|\\right)\\]\nThis is the honest answer that economic theory delivers. Whether AI increases or decreases aggregate employment is fundamentally an empirical question, not a theoretical one, and claims to the contrary — in either direction — are not well-grounded in economic reasoning."
+  },
+  {
+    "objectID": "blog/posts/ai-employment-blog-post.html#wages-are-equally-ambiguous",
+    "href": "blog/posts/ai-employment-blog-post.html#wages-are-equally-ambiguous",
+    "title": "The Economics of AI and Employment: Why the Net Effect Is Not as Clear as It Seems",
+    "section": "Wages Are Equally Ambiguous",
+    "text": "Wages Are Equally Ambiguous\nThe same decomposition logic applies to wages. The wage effect depends on how AI changes the marginal product of labor. With capital-augmenting AI, the direction turns on whether capital and labor are gross complements or gross substitutes:\n\nIf \\(K\\) and \\(L\\) are gross complements (\\(\\sigma &lt; 1\\)), expanding effective capital raises \\(MPL\\), putting upward pressure on wages even as relative input prices shift toward capital.\nIf \\(K\\) and \\(L\\) are gross substitutes (\\(\\sigma &gt; 1\\)), AI-driven capital deepening depresses \\(MPL\\), pushing wages down.\n\nMost empirical estimates of the aggregate elasticity of substitution between capital and labor fall in the range \\(\\sigma \\in [0.4, 0.8]\\), suggesting mild gross complementarity (Chirinko, 2008). If this holds, AI adoption could raise average wages even while displacing workers from specific tasks. The more empirically grounded near-term concern is distributional rather than aggregate: automation tends to compress wages in routine-task occupations while raising returns to high-skill and manual-dexterity roles (Autor, Levy, and Murnane, 2003). The question, accordingly, may be less about total employment than about uneven adjustment across workers and occupations."
+  },
+  {
+    "objectID": "blog/posts/ai-employment-blog-post.html#the-elasticity-condition",
+    "href": "blog/posts/ai-employment-blog-post.html#the-elasticity-condition",
+    "title": "The Economics of AI and Employment: Why the Net Effect Is Not as Clear as It Seems",
+    "section": "The Elasticity Condition",
+    "text": "The Elasticity Condition\nThe indeterminacy can be sharpened with a precise condition. Labor demand falls if and only if:\n\\[\\sigma &gt; \\eta \\cdot s_L\\]\nwhere \\(\\sigma\\) is the elasticity of substitution between \\(K\\) and \\(L\\), \\(\\eta\\) is the own-price elasticity of product demand, and \\(s_L\\) is labor’s share of total cost. When product demand is highly elastic (large \\(\\eta\\)), output expands substantially and the output effect tends to dominate. When factor substitution is easy (large \\(\\sigma\\)), employment may fall even as output grows.\nThe aggregate unemployment scenario consequently requires either very large \\(\\sigma\\) or very small \\(\\eta\\) — the latter being equivalent to assuming that output barely responds to substantially lower production costs."
+  },
+  {
+    "objectID": "blog/posts/ai-employment-blog-post.html#the-historical-record",
+    "href": "blog/posts/ai-employment-blog-post.html#the-historical-record",
+    "title": "The Economics of AI and Employment: Why the Net Effect Is Not as Clear as It Seems",
+    "section": "The Historical Record",
+    "text": "The Historical Record\nThe empirical record from comparable general-purpose technologies is informative, though not definitive.\nAgricultural mechanization in the 19th and early 20th centuries displaced the large majority of the agricultural workforce in developed economies. In 1800, roughly 90% of the American labor force worked in agriculture; today the figure is less than 2%. Total employment did not decline; labor reallocated into manufacturing and services, with real wages rising over the same period.\nElectrification in the early 20th century is perhaps the closest historical analogue to AI: a general-purpose technology that augmented capital productivity across virtually every sector simultaneously. Factories reorganized around the new technology, displacing many craft workers, yet the decades following broad electrification saw robust wage growth in manufacturing, as productivity gains raised the marginal product of the remaining workers and created new consumer goods industries (David, 1990).\nThe computing and internet revolution produced similar concerns in the 1980s and 1990s. Automated teller machines were widely cited as evidence that bank tellers would become obsolete — but the number of bank tellers in the United States increased in the decades following ATM adoption, because lower branch operating costs enabled banks to open more locations and expand services (Bessen, 2015). Aggregate employment in IT-intensive industries grew substantially through the 1990s and 2000s even as individual tasks were automated.\nThe pattern across these episodes is consistent enough that economic historians treat it as a near-regularity: general-purpose technologies that substantially lower production costs have historically generated more aggregate labor demand, not less, after full adjustment. The adjustment process is not without cost — workers in displaced occupations bear real transition costs — but the aggregate employment declines that were predicted did not materialize."
+  },
+  {
+    "objectID": "blog/posts/ai-employment-blog-post.html#a-more-complete-accounting",
+    "href": "blog/posts/ai-employment-blog-post.html#a-more-complete-accounting",
+    "title": "The Economics of AI and Employment: Why the Net Effect Is Not as Clear as It Seems",
+    "section": "A More Complete Accounting",
+    "text": "A More Complete Accounting\nAnalyses that conclude AI will reduce aggregate employment generally focus exclusively on the substitution effect, implicitly assuming that output responds minimally to lower costs. A more complete accounting must incorporate the output response, the reallocation of labor toward tasks where human comparative advantage persists, and the likelihood that AI’s true contribution to output is being understated in standard statistics.\nNone of this implies that the adjustment to AI will be painless or evenly distributed. The distributional consequences of automation are real and warrant serious policy attention. However, aggregate employment outcomes depend on both the substitution and output effects, and the weight of historical evidence suggests caution about confident predictions of labor market catastrophe from general-purpose technological change."
+  },
+  {
+    "objectID": "blog/posts/ai-employment-blog-post.html#references",
+    "href": "blog/posts/ai-employment-blog-post.html#references",
+    "title": "The Economics of AI and Employment: Why the Net Effect Is Not as Clear as It Seems",
+    "section": "References",
+    "text": "References\nAutor, D. H., Levy, F., and Murnane, R. J. (2003). The skill content of recent technological change: An empirical exploration. Quarterly Journal of Economics, 118(4), 1279–1333.\nBessen, J. (2015). Learning by Doing: The Real Connection Between Innovation, Wages, and Wealth. Yale University Press.\nBrynjolfsson, E., Eggers, F., and Gannamaneni, A. (2019). Using massive online choice experiments to measure changes in well-being. Proceedings of the National Academy of Sciences, 116(15), 7250–7255.\nChirinko, R. S. (2008). σ: The long and short of it. Journal of Macroeconomics, 30(2), 671–686.\nDavid, P. A. (1990). The dynamo and the computer: An historical perspective on the modern productivity paradox. American Economic Review, 80(2), 355–361."
   }
 ]

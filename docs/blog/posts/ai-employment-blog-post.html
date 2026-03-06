@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-03-01">
+<meta name="description" content="Public discussion of AI’s employment effects tends to focus on substitution while neglecting the output response. A more complete accounting suggests considerably more ambiguity.">
 
-<title>Blog – Dr.&nbsp;Andrew Anderson</title>
+<title>The Economics of AI and Employment: Why the Net Effect Is Not as Clear as It Seems – Dr.&nbsp;Andrew Anderson</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,26 +28,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../images/Headshot.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dfa48a90d809c806c7ea2d5aecd9fc66.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-d1b714ae72debda6baafd112ce04a500.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/Headshot.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dfa48a90d809c806c7ea2d5aecd9fc66.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-d1b714ae72debda6baafd112ce04a500.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,35 +73,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-description','listing-categories','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
@@ -134,17 +105,17 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="../styles.css">
-<link rel="alternate" type="application/rss+xml" title="Dr. Andrew Anderson" href="index.xml" data-external="1"></head>
+<link rel="stylesheet" href="../../styles.css">
+</head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Dr.&nbsp;Andrew Anderson</span>
     </a>
   </div>
@@ -155,19 +126,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../work.html"> 
+    <a class="nav-link" href="../../work.html"> 
 <span class="menu-text">Research &amp; Extension</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../teaching.html"> 
+    <a class="nav-link" href="../../teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../blog/index.html" aria-current="page"> 
+    <a class="nav-link" href="../../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -185,24 +156,39 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="QUk=">AI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RmVlZCUyMENvc3Rz">Feed Costs <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RmVlZGxvdHM=">Feedlots <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TGFib3IlMjBFY29ub21pY3M=">Labor Economics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVzZWFyY2g=">Research <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGVjaG5vbG9neQ==">Technology <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog</h1>
+<h1 class="title">The Economics of AI and Employment: Why the Net Effect Is Not as Clear as It Seems</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">AI</div>
+    <div class="quarto-category">Labor Economics</div>
+    <div class="quarto-category">Technology</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Public discussion of AI’s employment effects tends to focus on substitution while neglecting the output response. A more complete accounting suggests considerably more ambiguity.
+  </div>
 </div>
 
 
-
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 1, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -212,79 +198,80 @@ window.Quarto = {
 </header>
 
 
-<p>This is where I will post thoughts on a range of topics that are broadly within my professional interests. I will also post research summaries for projects I am working on.</p>
-<hr>
+<p>Public concern about artificial intelligence displacing workers follows a pattern that is well-established in economic history. The power loom, the steam engine, the assembly line, and the personal computer each prompted similar predictions of widespread job loss. In each case, the technology did displace workers from specific tasks, but the aggregate employment consequences were more modest than feared, because cost reductions also expanded output and generated demand for labor in new and existing industries. Whether AI follows the same path is a genuinely open empirical question — but the analytical framework for thinking through it is straightforward, and it suggests considerably more ambiguity than most popular accounts acknowledge.</p>
+<section id="a-general-production-framework" class="level2">
+<h2 class="anchored" data-anchor-id="a-general-production-framework">A General Production Framework</h2>
+<p>Consider a representative economy producing output <span class="math inline">\(Y\)</span> using capital <span class="math inline">\(K\)</span> and labor <span class="math inline">\(L\)</span>:</p>
+<p><span class="math display">\[Y = F(K, L)\]</span></p>
+<p>where <span class="math inline">\(F\)</span> satisfies standard neoclassical properties: <span class="math inline">\(F_K, F_L &gt; 0\)</span> and <span class="math inline">\(F_{KK}, F_{LL} &lt; 0\)</span>. In competitive input markets, factors are paid their marginal products:</p>
+<p><span class="math display">\[w = F_L(K, L) \qquad r = F_K(K, L)\]</span></p>
+<p>Equilibrium input demands satisfy <span class="math inline">\(F_L / F_K = w / r\)</span>.</p>
+</section>
+<section id="ai-as-a-shift-in-relative-marginal-products" class="level2">
+<h2 class="anchored" data-anchor-id="ai-as-a-shift-in-relative-marginal-products">AI as a Shift in Relative Marginal Products</h2>
+<p>AI can be modeled as a capital-augmenting technological shock that raises the effective productivity of capital relative to labor. Let <span class="math inline">\(\theta &gt; 0\)</span> parameterize the degree of AI adoption:</p>
+<p><span class="math display">\[Y = F(\theta K, L)\]</span></p>
+<p>As <span class="math inline">\(\theta\)</span> increases, the marginal product of capital rises and the relative marginal product of labor falls:</p>
+<p><span class="math display">\[MPK = \theta \cdot F_K(\theta K, L) \uparrow \qquad \frac{MPL}{MPK} \downarrow\]</span></p>
+<p>This shift has two simultaneous effects: it lowers the relative cost of using capital, and it lowers the marginal cost of producing output. Both effects matter, and they pull labor demand in opposite directions.</p>
+</section>
+<section id="the-output-response-and-why-measuring-it-is-difficult" class="level2">
+<h2 class="anchored" data-anchor-id="the-output-response-and-why-measuring-it-is-difficult">The Output Response — and Why Measuring It Is Difficult</h2>
+<p>Because AI raises effective capital productivity, the minimum cost of producing any given <span class="math inline">\(Y\)</span> falls. In a competitive product market, lower marginal cost pushes price toward the new, lower <span class="math inline">\(MC\)</span>, and equilibrium output expands:</p>
+<p><span class="math display">\[MC \downarrow \Longrightarrow P \downarrow \Longrightarrow Q^D \uparrow \Longrightarrow Y^* \uparrow\]</span></p>
+<p>A complication is that standard GDP measurement likely understates this output expansion for AI. GDP captures market transactions at market prices, but a substantial share of AI’s value flows to users through free or heavily subsidized products. When producers use free AI tools to improve decision-making or operational efficiency, real economic value is created that does not appear in measured output. Economists have documented similar mismeasurement for digital goods more broadly; estimates suggest that free digital services generate consumer surplus worth hundreds of billions of dollars annually that conventional statistics miss (Brynjolfsson et al., 2019). The implication is that the true output effect of AI may be larger than GDP-based analyses would suggest, which strengthens the case that labor demand responses are being underestimated.</p>
+</section>
+<section id="decomposing-the-labor-demand-response" class="level2">
+<h2 class="anchored" data-anchor-id="decomposing-the-labor-demand-response">Decomposing the Labor Demand Response</h2>
+<p>The total effect on labor demand can be decomposed as:</p>
+<p><span class="math display">\[\frac{dL}{d\theta} = \underbrace{\left.\frac{\partial L}{\partial \theta}\right|_{\bar{Y}}}_{\text{Substitution Effect } (-)} + \underbrace{\frac{\partial L}{\partial Y} \cdot \frac{dY}{d\theta}}_{\text{Output Effect } (+)}\]</span></p>
+<p>The substitution effect is negative: holding output constant, the relative cheapening of effective capital induces firms to substitute toward <span class="math inline">\(K\)</span> and away from <span class="math inline">\(L\)</span>. This effect is real, but it represents only part of the full response.</p>
+<p>The output effect is positive: AI-driven cost reductions expand equilibrium output <span class="math inline">\(Y^*\)</span>, and since <span class="math inline">\(\partial L / \partial Y &gt; 0\)</span>, this scale expansion pulls labor demand upward.</p>
+<p>The net effect on employment is therefore theoretically indeterminate:</p>
+<p><span class="math display">\[\text{sign}\left(\frac{dL}{d\theta}\right) = \text{sign}\left(|\text{Output Effect}| - |\text{Substitution Effect}|\right)\]</span></p>
+<p>This is the honest answer that economic theory delivers. Whether AI increases or decreases aggregate employment is fundamentally an empirical question, not a theoretical one, and claims to the contrary — in either direction — are not well-grounded in economic reasoning.</p>
+</section>
+<section id="wages-are-equally-ambiguous" class="level2">
+<h2 class="anchored" data-anchor-id="wages-are-equally-ambiguous">Wages Are Equally Ambiguous</h2>
+<p>The same decomposition logic applies to wages. The wage effect depends on how AI changes the marginal product of labor. With capital-augmenting AI, the direction turns on whether capital and labor are gross complements or gross substitutes:</p>
+<ul>
+<li>If <span class="math inline">\(K\)</span> and <span class="math inline">\(L\)</span> are gross complements (<span class="math inline">\(\sigma &lt; 1\)</span>), expanding effective capital raises <span class="math inline">\(MPL\)</span>, putting upward pressure on wages even as relative input prices shift toward capital.</li>
+<li>If <span class="math inline">\(K\)</span> and <span class="math inline">\(L\)</span> are gross substitutes (<span class="math inline">\(\sigma &gt; 1\)</span>), AI-driven capital deepening depresses <span class="math inline">\(MPL\)</span>, pushing wages down.</li>
+</ul>
+<p>Most empirical estimates of the aggregate elasticity of substitution between capital and labor fall in the range <span class="math inline">\(\sigma \in [0.4, 0.8]\)</span>, suggesting mild gross complementarity (Chirinko, 2008). If this holds, AI adoption could raise average wages even while displacing workers from specific tasks. The more empirically grounded near-term concern is distributional rather than aggregate: automation tends to compress wages in routine-task occupations while raising returns to high-skill and manual-dexterity roles (Autor, Levy, and Murnane, 2003). The question, accordingly, may be less about total employment than about uneven adjustment across workers and occupations.</p>
+</section>
+<section id="the-elasticity-condition" class="level2">
+<h2 class="anchored" data-anchor-id="the-elasticity-condition">The Elasticity Condition</h2>
+<p>The indeterminacy can be sharpened with a precise condition. Labor demand falls if and only if:</p>
+<p><span class="math display">\[\sigma &gt; \eta \cdot s_L\]</span></p>
+<p>where <span class="math inline">\(\sigma\)</span> is the elasticity of substitution between <span class="math inline">\(K\)</span> and <span class="math inline">\(L\)</span>, <span class="math inline">\(\eta\)</span> is the own-price elasticity of product demand, and <span class="math inline">\(s_L\)</span> is labor’s share of total cost. When product demand is highly elastic (large <span class="math inline">\(\eta\)</span>), output expands substantially and the output effect tends to dominate. When factor substitution is easy (large <span class="math inline">\(\sigma\)</span>), employment may fall even as output grows.</p>
+<p>The aggregate unemployment scenario consequently requires either very large <span class="math inline">\(\sigma\)</span> or very small <span class="math inline">\(\eta\)</span> — the latter being equivalent to assuming that output barely responds to substantially lower production costs.</p>
+</section>
+<section id="the-historical-record" class="level2">
+<h2 class="anchored" data-anchor-id="the-historical-record">The Historical Record</h2>
+<p>The empirical record from comparable general-purpose technologies is informative, though not definitive.</p>
+<p>Agricultural mechanization in the 19th and early 20th centuries displaced the large majority of the agricultural workforce in developed economies. In 1800, roughly 90% of the American labor force worked in agriculture; today the figure is less than 2%. Total employment did not decline; labor reallocated into manufacturing and services, with real wages rising over the same period.</p>
+<p>Electrification in the early 20th century is perhaps the closest historical analogue to AI: a general-purpose technology that augmented capital productivity across virtually every sector simultaneously. Factories reorganized around the new technology, displacing many craft workers, yet the decades following broad electrification saw robust wage growth in manufacturing, as productivity gains raised the marginal product of the remaining workers and created new consumer goods industries (David, 1990).</p>
+<p>The computing and internet revolution produced similar concerns in the 1980s and 1990s. Automated teller machines were widely cited as evidence that bank tellers would become obsolete — but the number of bank tellers in the United States increased in the decades following ATM adoption, because lower branch operating costs enabled banks to open more locations and expand services (Bessen, 2015). Aggregate employment in IT-intensive industries grew substantially through the 1990s and 2000s even as individual tasks were automated.</p>
+<p>The pattern across these episodes is consistent enough that economic historians treat it as a near-regularity: general-purpose technologies that substantially lower production costs have historically generated more aggregate labor demand, not less, after full adjustment. The adjustment process is not without cost — workers in displaced occupations bear real transition costs — but the aggregate employment declines that were predicted did not materialize.</p>
+</section>
+<section id="a-more-complete-accounting" class="level2">
+<h2 class="anchored" data-anchor-id="a-more-complete-accounting">A More Complete Accounting</h2>
+<p>Analyses that conclude AI will reduce aggregate employment generally focus exclusively on the substitution effect, implicitly assuming that output responds minimally to lower costs. A more complete accounting must incorporate the output response, the reallocation of labor toward tasks where human comparative advantage persists, and the likelihood that AI’s true contribution to output is being understated in standard statistics.</p>
+<p>None of this implies that the adjustment to AI will be painless or evenly distributed. The distributional consequences of automation are real and warrant serious policy attention. However, aggregate employment outcomes depend on both the substitution and output effects, and the weight of historical evidence suggests caution about confident predictions of labor market catastrophe from general-purpose technological change.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>Autor, D. H., Levy, F., and Murnane, R. J. (2003). The skill content of recent technological change: An empirical exploration. <em>Quarterly Journal of Economics</em>, 118(4), 1279–1333.</p>
+<p>Bessen, J. (2015). <em>Learning by Doing: The Real Connection Between Innovation, Wages, and Wealth</em>. Yale University Press.</p>
+<p>Brynjolfsson, E., Eggers, F., and Gannamaneni, A. (2019). Using massive online choice experiments to measure changes in well-being. <em>Proceedings of the National Academy of Sciences</em>, 116(15), 7250–7255.</p>
+<p>Chirinko, R. S. (2008). σ: The long and short of it. <em>Journal of Macroeconomics</em>, 30(2), 671–686.</p>
+<p>David, P. A. (1990). The dynamo and the computer: An historical perspective on the modern productivity paradox. <em>American Economic Review</em>, 80(2), 355–361.</p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="QUklMkNMYWJvciUyMEVjb25vbWljcyUyQ1RlY2hub2xvZ3k=" data-listing-date-sort="1772348400000" data-listing-file-modified-sort="1772817598038" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1373">
-<a href="../blog/posts/ai-employment-blog-post.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../blog/posts/ai.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The Economics of AI and Employment: Why the Net Effect Is Not as Clear as It Seems
-</h5>
-<div class="listing-reading-time card-text text-muted">7 min</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">AI</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGFib3IlMjBFY29ub21pY3M='); return false;">Labor Economics</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGVjaG5vbG9neQ=='); return false;">Technology</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Public discussion of AI’s employment effects tends to focus on substitution while neglecting the output response. A more complete accounting suggests considerably more…</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Mar 1, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="RmVlZGxvdHMlMkNGZWVkJTIwQ29zdHMlMkNSZXNlYXJjaA==" data-listing-date-sort="1757916000000" data-listing-file-modified-sort="1772773413060" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1045">
-<a href="../blog/posts/feedlot-blog-post.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../blog/posts/feedlot.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-What Happens to Feedlot Performance When Feed Prices Shift?
-</h5>
-<div class="listing-reading-time card-text text-muted">6 min</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RmVlZGxvdHM='); return false;">Feedlots</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RmVlZCUyMENvc3Rz'); return false;">Feed Costs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UmVzZWFyY2g='); return false;">Research</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Feed price changes don’t just raise costs — they trigger substitution decisions that can meaningfully improve or hurt cattle performance.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 15, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -702,22 +689,22 @@ Sep 15, 2025
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../index.html">
+    <a class="nav-link" href="../../index.html">
 <p>About</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../work.html">
+    <a class="nav-link" href="../../work.html">
 <p>Research &amp; Extension</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../teaching.html">
+    <a class="nav-link" href="../../teaching.html">
 <p>Teaching</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../blog/index.html">
+    <a class="nav-link" href="../../blog/index.html">
 <p>Blog</p>
 </a>
   </li>  
@@ -729,5 +716,5 @@ Sep 15, 2025
 
 
 
-<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
