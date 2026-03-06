@@ -45,8 +45,8 @@ hr { border-color: #d8ccbc; margin: 2.5rem 0; }
 
 /* ── Hero ───────────────────────────────────────────── */
 .hero-band {
-  background: linear-gradient(160deg, #eee8d9 55%, #dde6dc 100%);
-  padding: 56px 0 64px;
+  background: linear-gradient(160deg, rgba(238,232,217,0.88) 55%, rgba(221,230,220,0.88) 100%);
+  padding: 54px 0 62px;
   border-bottom: 1px solid #d4c8b4;
 }
 
