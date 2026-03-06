@@ -1,0 +1,106 @@
+---
+title: "The Economics of AI and Employment: Why the Net Effect Is Not as Clear as It Seems"
+date: "2026-03-01"
+categories: [AI, Labor Economics, Technology]
+description: "Public discussion of AI's employment effects tends to focus on substitution while neglecting the output response. A more complete accounting suggests considerably more ambiguity."
+image: "ai.jpg"
+---
+
+Public concern about artificial intelligence displacing workers follows a pattern that is well-established in economic history. The power loom, the steam engine, the assembly line, and the personal computer each prompted similar predictions of widespread job loss. In each case, the technology did displace workers from specific tasks, but the aggregate employment consequences were more modest than feared, because cost reductions also expanded output and generated demand for labor in new and existing industries. Whether AI follows the same path is a genuinely open empirical question — but the analytical framework for thinking through it is straightforward, and it suggests considerably more ambiguity than most popular accounts acknowledge.
+
+## A General Production Framework
+
+Consider a representative economy producing output $Y$ using capital $K$ and labor $L$:
+
+$$Y = F(K, L)$$
+
+where $F$ satisfies standard neoclassical properties: $F_K, F_L > 0$ and $F_{KK}, F_{LL} < 0$. In competitive input markets, factors are paid their marginal products:
+
+$$w = F_L(K, L) \qquad r = F_K(K, L)$$
+
+Equilibrium input demands satisfy $F_L / F_K = w / r$.
+
+## AI as a Shift in Relative Marginal Products
+
+AI can be modeled as a capital-augmenting technological shock that raises the effective productivity of capital relative to labor. Let $\theta > 0$ parameterize the degree of AI adoption:
+
+$$Y = F(\theta K, L)$$
+
+As $\theta$ increases, the marginal product of capital rises and the relative marginal product of labor falls:
+
+$$MPK = \theta \cdot F_K(\theta K, L) \uparrow \qquad \frac{MPL}{MPK} \downarrow$$
+
+This shift has two simultaneous effects: it lowers the relative cost of using capital, and it lowers the marginal cost of producing output. Both effects matter, and they pull labor demand in opposite directions.
+
+## The Output Response — and Why Measuring It Is Difficult
+
+Because AI raises effective capital productivity, the minimum cost of producing any given $Y$ falls. In a competitive product market, lower marginal cost pushes price toward the new, lower $MC$, and equilibrium output expands:
+
+$$MC \downarrow \Longrightarrow P \downarrow \Longrightarrow Q^D \uparrow \Longrightarrow Y^* \uparrow$$
+
+A complication is that standard GDP measurement likely understates this output expansion for AI. GDP captures market transactions at market prices, but a substantial share of AI's value flows to users through free or heavily subsidized products. When producers use free AI tools to improve decision-making or operational efficiency, real economic value is created that does not appear in measured output. Economists have documented similar mismeasurement for digital goods more broadly; estimates suggest that free digital services generate consumer surplus worth hundreds of billions of dollars annually that conventional statistics miss (Brynjolfsson et al., 2019). The implication is that the true output effect of AI may be larger than GDP-based analyses would suggest, which strengthens the case that labor demand responses are being underestimated.
+
+## Decomposing the Labor Demand Response
+
+The total effect on labor demand can be decomposed as:
+
+$$\frac{dL}{d\theta} = \underbrace{\left.\frac{\partial L}{\partial \theta}\right|_{\bar{Y}}}_{\text{Substitution Effect } (-)} + \underbrace{\frac{\partial L}{\partial Y} \cdot \frac{dY}{d\theta}}_{\text{Output Effect } (+)}$$
+
+The substitution effect is negative: holding output constant, the relative cheapening of effective capital induces firms to substitute toward $K$ and away from $L$. This effect is real, but it represents only part of the full response.
+
+The output effect is positive: AI-driven cost reductions expand equilibrium output $Y^*$, and since $\partial L / \partial Y > 0$, this scale expansion pulls labor demand upward.
+
+The net effect on employment is therefore theoretically indeterminate:
+
+$$\text{sign}\left(\frac{dL}{d\theta}\right) = \text{sign}\left(|\text{Output Effect}| - |\text{Substitution Effect}|\right)$$
+
+This is the honest answer that economic theory delivers. Whether AI increases or decreases aggregate employment is fundamentally an empirical question, not a theoretical one, and claims to the contrary — in either direction — are not well-grounded in economic reasoning.
+
+## Wages Are Equally Ambiguous
+
+The same decomposition logic applies to wages. The wage effect depends on how AI changes the marginal product of labor. With capital-augmenting AI, the direction turns on whether capital and labor are gross complements or gross substitutes:
+
+- If $K$ and $L$ are gross complements ($\sigma < 1$), expanding effective capital raises $MPL$, putting upward pressure on wages even as relative input prices shift toward capital.
+- If $K$ and $L$ are gross substitutes ($\sigma > 1$), AI-driven capital deepening depresses $MPL$, pushing wages down.
+
+Most empirical estimates of the aggregate elasticity of substitution between capital and labor fall in the range $\sigma \in [0.4, 0.8]$, suggesting mild gross complementarity (Chirinko, 2008). If this holds, AI adoption could raise average wages even while displacing workers from specific tasks. The more empirically grounded near-term concern is distributional rather than aggregate: automation tends to compress wages in routine-task occupations while raising returns to high-skill and manual-dexterity roles (Autor, Levy, and Murnane, 2003). The question, accordingly, may be less about total employment than about uneven adjustment across workers and occupations.
+
+## The Elasticity Condition
+
+The indeterminacy can be sharpened with a precise condition. Labor demand falls if and only if:
+
+$$\sigma > \eta \cdot s_L$$
+
+where $\sigma$ is the elasticity of substitution between $K$ and $L$, $\eta$ is the own-price elasticity of product demand, and $s_L$ is labor's share of total cost. When product demand is highly elastic (large $\eta$), output expands substantially and the output effect tends to dominate. When factor substitution is easy (large $\sigma$), employment may fall even as output grows.
+
+The aggregate unemployment scenario consequently requires either very large $\sigma$ or very small $\eta$ — the latter being equivalent to assuming that output barely responds to substantially lower production costs.
+
+## The Historical Record
+
+The empirical record from comparable general-purpose technologies is informative, though not definitive.
+
+Agricultural mechanization in the 19th and early 20th centuries displaced the large majority of the agricultural workforce in developed economies. In 1800, roughly 90% of the American labor force worked in agriculture; today the figure is less than 2%. Total employment did not decline; labor reallocated into manufacturing and services, with real wages rising over the same period.
+
+Electrification in the early 20th century is perhaps the closest historical analogue to AI: a general-purpose technology that augmented capital productivity across virtually every sector simultaneously. Factories reorganized around the new technology, displacing many craft workers, yet the decades following broad electrification saw robust wage growth in manufacturing, as productivity gains raised the marginal product of the remaining workers and created new consumer goods industries (David, 1990).
+
+The computing and internet revolution produced similar concerns in the 1980s and 1990s. Automated teller machines were widely cited as evidence that bank tellers would become obsolete — but the number of bank tellers in the United States increased in the decades following ATM adoption, because lower branch operating costs enabled banks to open more locations and expand services (Bessen, 2015). Aggregate employment in IT-intensive industries grew substantially through the 1990s and 2000s even as individual tasks were automated.
+
+The pattern across these episodes is consistent enough that economic historians treat it as a near-regularity: general-purpose technologies that substantially lower production costs have historically generated more aggregate labor demand, not less, after full adjustment. The adjustment process is not without cost — workers in displaced occupations bear real transition costs — but the aggregate employment declines that were predicted did not materialize.
+
+## A More Complete Accounting
+
+Analyses that conclude AI will reduce aggregate employment generally focus exclusively on the substitution effect, implicitly assuming that output responds minimally to lower costs. A more complete accounting must incorporate the output response, the reallocation of labor toward tasks where human comparative advantage persists, and the likelihood that AI's true contribution to output is being understated in standard statistics.
+
+None of this implies that the adjustment to AI will be painless or evenly distributed. The distributional consequences of automation are real and warrant serious policy attention. However, aggregate employment outcomes depend on both the substitution and output effects, and the weight of historical evidence suggests caution about confident predictions of labor market catastrophe from general-purpose technological change.
+
+## References
+
+Autor, D. H., Levy, F., and Murnane, R. J. (2003). The skill content of recent technological change: An empirical exploration. *Quarterly Journal of Economics*, 118(4), 1279–1333.
+
+Bessen, J. (2015). *Learning by Doing: The Real Connection Between Innovation, Wages, and Wealth*. Yale University Press.
+
+Brynjolfsson, E., Eggers, F., and Gannamaneni, A. (2019). Using massive online choice experiments to measure changes in well-being. *Proceedings of the National Academy of Sciences*, 116(15), 7250–7255.
+
+Chirinko, R. S. (2008). σ: The long and short of it. *Journal of Macroeconomics*, 30(2), 671–686.
+
+David, P. A. (1990). The dynamo and the computer: An historical perspective on the modern productivity paradox. *American Economic Review*, 80(2), 355–361.
