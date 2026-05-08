@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-05-07">
+<meta name="description" content="Disruptions on the Mississippi River system push barge freight rates up — and farmers absorb part of that cost through weaker basis. Our new research determines where that exposure is greatest and why.">
 
-<title>Blog – Dr.&nbsp;Andrew Anderson</title>
+<title>When the River Runs Low: How Transportation Disruptions Affect Local Grain Basis – Dr.&nbsp;Andrew Anderson</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,26 +28,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../images/Headshot.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dfa48a90d809c806c7ea2d5aecd9fc66.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-d1b714ae72debda6baafd112ce04a500.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/Headshot.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dfa48a90d809c806c7ea2d5aecd9fc66.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-d1b714ae72debda6baafd112ce04a500.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,35 +73,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-description','listing-categories','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-PRQ410VYJN"></script>
 
 <script type="text/javascript">
@@ -113,47 +84,18 @@ gtag('config', 'G-PRQ410VYJN', { 'anonymize_ip': true});
 </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
+<link rel="stylesheet" href="../../styles.css">
+</head>
 
-<link rel="stylesheet" href="../styles.css">
-<link rel="alternate" type="application/rss+xml" title="Dr. Andrew Anderson" href="index.xml" data-external="1"></head>
-
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Dr.&nbsp;Andrew Anderson</span>
     </a>
   </div>
@@ -164,19 +106,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../work.html"> 
+    <a class="nav-link" href="../../work.html"> 
 <span class="menu-text">Research &amp; Extension</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../teaching.html"> 
+    <a class="nav-link" href="../../teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../blog/index.html" aria-current="page"> 
+    <a class="nav-link" href="../../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -194,24 +136,39 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="QWdyaWN1bHR1cmFsJTIwRWNvbm9taWNz">Agricultural Economics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QUk=">AI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R3JhaW4lMjBNYXJrZXRz">Grain Markets <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TGFib3IlMjBFY29ub21pY3M=">Labor Economics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGVjaG5vbG9neQ==">Technology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VHJhbnNwb3J0YXRpb24=">Transportation <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog</h1>
+<h1 class="title">When the River Runs Low: How Transportation Disruptions Affect Local Grain Basis</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Agricultural Economics</div>
+    <div class="quarto-category">Transportation</div>
+    <div class="quarto-category">Grain Markets</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Disruptions on the Mississippi River system push barge freight rates up — and farmers absorb part of that cost through weaker basis. Our new research determines where that exposure is greatest and why.
+  </div>
 </div>
 
 
-
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 7, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -221,79 +178,29 @@ window.Quarto = {
 </header>
 
 
-<p>This is where I will post thoughts on a range of topics that are broadly within my professional interests. I will also post research summaries for projects I am working on.</p>
-<hr>
+<p>My coauthors at the University of Arkansas and I recently published a paper in <em>Agribusiness</em> on how transportation cost shocks along the Mississippi River system affect corn and soybean basis (full article: <a href="https://doi.org/10.1002/agr.70108">https://doi.org/10.1002/agr.70108</a>). Here is the abstract:</p>
+<blockquote class="blockquote">
+<p>A substantial share of U.S. soybean and corn exports from the Midwest moves by barge along the Mississippi River system to export terminals in the Louisiana Gulf. Transportation costs between Midwestern grain elevators and export terminals create a wedge between prices at these locations, and shocks to these costs are partially passed on to farmers through lower cash bids and weaker basis. We estimate the pass-through rate of river transportation cost shocks to farmers using elevator-level cash bids and barge freight rates in a fixed-effects instrumental variables model, with river levels serving as an instrument. We also examine interaction effects for distance to a river port, distance to a processing plant, and the density of nearby elevators. Results indicate that higher river transportation costs weaken soybean and corn basis. The negative effect is smaller for elevators located farther from a river port or in areas with more nearby elevators, while distance to a processing plant plays a limited role in mitigating barge rates being passed through to basis. Pass-through for corn is more strongly moderated by local elevator density, whereas pass-through for soybeans is more sensitive to distance from a river port. These findings help farmers assess their exposure to basis risk from river transportation disruptions. Our results also provide policymakers with an empirical measure of the cost of such disruptions on farmers, informing the valuation of infrastructure investments that mitigate them.</p>
+</blockquote>
+<p>The work was motivated by historically low river levels late in the year — close to harvest time — over the last several years, which drove historically high barge freight rates (Figure 1).</p>
+<p><img src="river-figure1.png" class="img-fluid"></p>
+<p><strong>Figure 1.</strong> Barge freight rates measured in USD per bushel of soybeans from Memphis, Tennessee.</p>
+<p>Because river levels affect barge rates and are plausibly exogenous, we used them as an instrument to identify the relationship between barge rates and corn and soybean basis. River transportation costs do not affect every location the same way, though. We thought of a few reasons that farmers selling to a given elevator might be more or less exposed: proximity to a river port, proximity to alternative marketing options (ethanol plants, soy crush facilities, feed mills, etc.), and the density of nearby grain buyers (more competition for grain limits how much of the cost can be passed on). Figure 2 from the paper maps these features for corn.</p>
+<p><img src="river-figure2.png" class="img-fluid"></p>
+<p><strong>Figure 2.</strong> Geographic distribution of corn elevators, river ports, gage sites, and processing plants within the Mississippi River Basin.</p>
+<p>We found that pass-through of barge rates does indeed vary across these dimensions. The most intuitive result is that proximity to a river port increases the share of the cost passed on to farmers. Elevators located near processing plants that absorb local grain supply are more insulated from barge rate shocks. And greater spatial competition among grain buyers also limits pass-through. Figure 4 from the paper shows where the strongest (most negative) and weakest (least negative) impacts fall across the Mississippi River Basin.</p>
+<p><img src="river-figure4.png" class="img-fluid"></p>
+<p><strong>Figure 4.</strong> Spatial distribution of marginal effects of barge freight rates on grain basis for corn. More negative values indicate stronger pass-through (e.g., a marginal pass-through of −0.35 means a $1 barge rate increase weakens basis by 35 cents). For corn, Iowa and southern Minnesota show weak pass-through due to competitive grain buying and abundant processing capacity, while the lower Mississippi shows strong pass-through due to limited competition and proximity to river ports.</p>
+<p>What does this mean for real-life decision making? The most important implication is that river disruptions don’t just move the overall price level for commodities — reflected in the futures market — they also change basis. That distinction matters because basis risk is not easily hedged like general price risk. So determining your level of exposure to this risk is the first step in managing it.</p>
+<p>The conclusion of the paper summarizes the implications this way:</p>
+<blockquote class="blockquote">
+<p>Our findings highlight several implications. For producers, the results map shows where exposure to transportation disruptions is greatest. Strategies such as diversifying marketing and investment in storage capacity can help manage this source of basis risk. For policymakers, these results show the value to farmers of reliable river navigation. This value should be considered in the benefits of infrastructure investments to reduce navigation disruptions. Moreover, the role of competitive local grain buying markets in moderating cost transmission should be considered in merger review and rural development policy.</p>
+</blockquote>
+<p>Check out the full article if you want more details on the background, methods, results, or implications!</p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="QWdyaWN1bHR1cmFsJTIwRWNvbm9taWNzJTJDVHJhbnNwb3J0YXRpb24lMkNHcmFpbiUyME1hcmtldHM=" data-listing-date-sort="1778133600000" data-listing-file-modified-sort="1778202755852" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="772">
-<a href="../blog/posts/river-transportation-blog-post.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../blog/posts/La_Crosse_Mississippi_River_barge_and_mooring_dolphins-10.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-When the River Runs Low: How Transportation Disruptions Affect Local Grain Basis
-</h5>
-<div class="listing-reading-time card-text text-muted">4 min</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('QWdyaWN1bHR1cmFsJTIwRWNvbm9taWNz'); return false;">Agricultural Economics</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VHJhbnNwb3J0YXRpb24='); return false;">Transportation</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('R3JhaW4lMjBNYXJrZXRz'); return false;">Grain Markets</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Disruptions on the Mississippi River system push barge freight rates up — and farmers absorb part of that cost through weaker basis. Our new research determines where that…</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-May 7, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="QUklMkNMYWJvciUyMEVjb25vbWljcyUyQ1RlY2hub2xvZ3k=" data-listing-date-sort="1773036000000" data-listing-file-modified-sort="1773091761518" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="864">
-<a href="../blog/posts/ai-employment-blog-post.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../blog/posts/ai.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The Economics of AI and Employment: Why Mass Unemployment is Unlikely
-</h5>
-<div class="listing-reading-time card-text text-muted">5 min</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">AI</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGFib3IlMjBFY29ub21pY3M='); return false;">Labor Economics</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGVjaG5vbG9neQ=='); return false;">Technology</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Public discussion of AI’s employment effects tends to focus on labor substitution while neglecting the output response. The complete picture is more optimistic.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Mar 9, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -711,22 +618,22 @@ Mar 9, 2026
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../index.html">
+    <a class="nav-link" href="../../index.html">
 <p>About</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../work.html">
+    <a class="nav-link" href="../../work.html">
 <p>Research &amp; Extension</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../teaching.html">
+    <a class="nav-link" href="../../teaching.html">
 <p>Teaching</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../blog/index.html">
+    <a class="nav-link" href="../../blog/index.html">
 <p>Blog</p>
 </a>
   </li>  
@@ -738,5 +645,5 @@ Mar 9, 2026
 
 
 
-<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
